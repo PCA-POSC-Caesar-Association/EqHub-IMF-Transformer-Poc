@@ -1,0 +1,3146 @@
+{
+  "id": "f3c48a35-3549-4ec7-8818-df2980ad55c8",
+  "data": {
+    "uuid": "35299806-aed6-4781-a47a-2d3c1e8afe90",
+    "status": "published",
+    "type": "product",
+    "productRevisionWebUrl": "https://service.collabor8.no/mm/app/#/eqhub/product-details/100007559/revisions/1",
+    "data": {
+      "eqhubProductId": 100007559,
+      "eqhubProductVersion": 1,
+      "isUnique": true,
+      "manufacturerId": "1000079",
+      "manufacturerName": "Honeywell Industrial Automation",
+      "partNumber": "STIW400--000000-0-A-NABR00-1EUS-A-31A7-02-00000",
+      "partNumberAliases": [],
+      "requirementsClass": {
+        "libraryVersion": "0.0.0.28",
+        "requirementsClassId": "EQCL201128",
+        "name": "Transmitter, Temperature, Electric",
+        "description": "A temperature transmitter that is generating a standardized electrical output signal representing the received input signal from the temperature sensor.",
+        "propertiesIds": [
+          "EQATTR200012",
+          "EQATTR200019",
+          "EQATTR200020",
+          "EQATTR200021",
+          "EQATTR200207",
+          "EQATTR200495",
+          "EQATTR200498",
+          "EQATTR200507",
+          "EQATTR200620",
+          "EQATTR200669",
+          "EQATTR201807",
+          "EQATTR200777",
+          "EQATTR201392",
+          "EQATTR201769",
+          "EQATTR201770",
+          "EQATTR201775",
+          "EQATTR201870",
+          "EQATTR200014",
+          "EQATTR200092",
+          "EQATTR201424",
+          "EQATTR201427",
+          "EQATTR201866",
+          "EQATTR201295",
+          "EQATTR200268",
+          "EQATTR200053",
+          "EQATTR201074",
+          "EQATTR202103",
+          "EQATTR200744",
+          "EQATTR200847",
+          "EQATTR200487"
+        ],
+        "documentsIds": [
+          "EQHUB_1",
+          "NOZTI_1",
+          "NOZTI_123",
+          "NOZTI_3",
+          "NOZTI_16",
+          "NOZTI_17",
+          "NOZTI_10",
+          "NOZTI_27",
+          "NOZTI_2",
+          "NOZTI_15",
+          "NOZTI_12",
+          "NOZTI_26"
+        ],
+        "type": "INSTRUMENT",
+        "standardsReferencesData": [
+          {
+            "name": "POSC CAESAR",
+            "propertyRequirementId": "RDS5770008",
+            "_id": "672324536ef3d1ff223afe4a"
+          },
+          {
+            "name": "CFIHOS",
+            "propertyRequirementId": "CFIHOS-30000476 temperature transmitter",
+            "_id": "672324536ef3d1ff223afe4b"
+          },
+          {
+            "name": "Norsok Z-018 class",
+            "propertyRequirementId": "NOZTI_P0019 TEMPERATURE TRANSMITTER",
+            "_id": "672324536ef3d1ff223afe4c"
+          },
+          {
+            "name": "ISO 15926 part4",
+            "propertyRequirementId": "4797 TEMPERATURE TRANSMITTER",
+            "_id": "672324536ef3d1ff223afe4d"
+          },
+          {
+            "name": "UNSPSC",
+            "propertyRequirementId": "41112105   Temperature transmitters",
+            "_id": "672324536ef3d1ff223afe4e"
+          }
+        ],
+        "documentsRequirementsData": null
+      },
+      "historicalClass": "Transmitter, Temperature, Electric",
+      "modelNumber": "STIW400",
+      "gtinNumber": "",
+      "unspscCategories": [
+        { "code": 41112105, "title": "Temperature transmitters" }
+      ],
+      "description": "The STIW400 is a high-performance Temperature transmitter featuring performance over a wide of temperature configurations and applications.",
+      "images": [
+        {
+          "url": "https://apis-vi.collabor8.no/eqhub-m2m/eqhub-api/v1/product-details/100007559/image/a06c3310-a2c9-4928-ae28-ba8c23ae3337",
+          "isMain": true
+        }
+      ],
+      "isLastVersion": true
+    },
+    "verificationData": {
+      "verificationStatus": "approved",
+      "verifierCompany": { "id": 117, "name": "Sharecat Solutions AS" },
+      "verifierUser": {
+        "id": "86df5dee-085a-4c01-8302-f285402bd193",
+        "companyId": 117
+      },
+      "verifiersSummary": "Checked & Ok.\n",
+      "primaryContext": {
+        "verificationComment": "Rettet iht. kommentar.",
+        "projectName": "N/A AkerBP (Operation)",
+        "ownerCompany": { "id": 155, "name": "AKER BP ASA" },
+        "validFromDate": "2020-01-01T01:00:00.000Z",
+        "validToDate": "2023-01-01T01:00:00.000Z",
+        "status": "expired"
+      },
+      "project": "N/A AkerBP (Operation)",
+      "company": "AKER BP ASA",
+      "verificationComment": "Rettet iht. kommentar.",
+      "context": "N/A AkerBP (Operation)-AKER BP ASA",
+      "supplementaryContexts": []
+    },
+    "properties": [
+      {
+        "propertyRequirement": {
+          "libraryVersion": "0.0.0.28",
+          "propertyRequirementId": "EQATTR200014",
+          "name": "Approximate operating weight",
+          "description": "An objects approximate calculated operational weight without process fluid.",
+          "groupId": "Dimensions and Weight",
+          "concept": "Physical",
+          "dataType": "Decimal",
+          "sample": "4.5 kg",
+          "uomRequired": true,
+          "uomClassId": "UOMCL200026",
+          "standardsReferencesData": [
+            {
+              "name": "POSC CAESAR",
+              "propertyRequirementId": "RDS1443397941",
+              "_id": "670e58d25becd923bd3c8370"
+            }
+          ]
+        },
+        "data": {
+          "group": "Dimensions and Weight",
+          "name": "Approximate operating weight",
+          "type": "Decimal",
+          "numericalValue": "4.1",
+          "uomData": {
+            "uomName": "kg",
+            "uomGroupId": "Mass",
+            "uomSymbol": "kg"
+          }
+        },
+        "metadata": {
+          "source": "eqhub",
+          "createdAt": "2024-10-24T07:21:10.242Z",
+          "updatedAt": "2024-10-31T06:31:56.144Z",
+          "createdBy": {
+            "id": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+            "companyId": 133
+          },
+          "updatedBy": {
+            "id": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+            "companyId": 133
+          },
+          "createdById": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+          "updatedById": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5"
+        }
+      },
+      {
+        "propertyRequirement": {
+          "libraryVersion": "0.0.0.28",
+          "propertyRequirementId": "EQATTR200053",
+          "name": "Accuracy range",
+          "description": "The closeness of agreement between the result of a measurement and the conventionally true value of the quantity being measured.",
+          "groupId": "Process Condition and Function",
+          "concept": "Physical",
+          "dataType": "String",
+          "sample": "+/- 0.075 %",
+          "uomRequired": false,
+          "standardsReferencesData": [
+            {
+              "name": "POSC CAESAR",
+              "propertyRequirementId": "RDS1415829671",
+              "_id": "670e58d25becd923bd3c838b"
+            }
+          ]
+        },
+        "data": {
+          "group": "Process Condition and Function",
+          "name": "Accuracy range",
+          "type": "String",
+          "textValue": "+/- 0.10 %",
+          "uomData": null
+        },
+        "metadata": {
+          "source": "eqhub",
+          "createdAt": "2024-10-24T07:21:10.242Z",
+          "updatedAt": "2024-10-31T06:31:56.144Z",
+          "createdBy": {
+            "id": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+            "companyId": 133
+          },
+          "updatedBy": {
+            "id": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+            "companyId": 133
+          },
+          "createdById": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+          "updatedById": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5"
+        }
+      },
+      {
+        "propertyRequirement": {
+          "libraryVersion": "0.0.0.28",
+          "propertyRequirementId": "EQATTR200268",
+          "name": "Communication standard",
+          "description": "A standard protocol for communication with another device.",
+          "groupId": "Process Condition and Function",
+          "concept": "Physical",
+          "dataType": "String",
+          "sample": "FOUNDATION Fieldbus",
+          "uomRequired": false,
+          "standardsReferencesData": [
+            {
+              "name": "POSC CAESAR",
+              "propertyRequirementId": "RDS1422650281",
+              "_id": "670e58d35becd923bd3c8a50"
+            }
+          ]
+        },
+        "data": {
+          "group": "Process Condition and Function",
+          "name": "Communication standard",
+          "type": "String",
+          "textValue": "ISA 100",
+          "uomData": null
+        },
+        "metadata": {
+          "source": "eqhub",
+          "createdAt": "2024-10-24T07:21:10.242Z",
+          "updatedAt": "2024-10-31T06:31:56.144Z",
+          "createdBy": {
+            "id": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+            "companyId": 133
+          },
+          "updatedBy": {
+            "id": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+            "companyId": 133
+          },
+          "createdById": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+          "updatedById": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5"
+        }
+      },
+      {
+        "propertyRequirement": {
+          "libraryVersion": "0.0.0.28",
+          "propertyRequirementId": "EQATTR201295",
+          "name": "Output signal",
+          "description": "A standardised signal representing the measured value from the process.",
+          "groupId": "Process Condition and Function",
+          "concept": "Physical",
+          "dataType": "String",
+          "sample": "4 - 20 mA",
+          "uomRequired": false,
+          "standardsReferencesData": [
+            {
+              "name": "POSC CAESAR",
+              "propertyRequirementId": "RDS1423284961",
+              "_id": "670e58d35becd923bd3c8b72"
+            }
+          ]
+        },
+        "data": {
+          "group": "Process Condition and Function",
+          "name": "Output signal",
+          "type": "String",
+          "textValue": "4 - 20 mA",
+          "uomData": null
+        },
+        "metadata": {
+          "source": "eqhub",
+          "createdAt": "2024-10-24T07:21:10.242Z",
+          "updatedAt": "2024-10-31T06:31:56.144Z",
+          "createdBy": {
+            "id": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+            "companyId": 133
+          },
+          "updatedBy": {
+            "id": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+            "companyId": 133
+          },
+          "createdById": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+          "updatedById": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5"
+        }
+      },
+      {
+        "propertyRequirement": {
+          "libraryVersion": "0.0.0.28",
+          "propertyRequirementId": "EQATTR202103",
+          "name": "Zero adjustment",
+          "description": "Assign if the instrument can be zero adjusted.",
+          "groupId": "Process Condition and Function",
+          "concept": "Physical",
+          "dataType": "String",
+          "sample": "Yes",
+          "uomRequired": false
+        },
+        "data": {
+          "group": "Process Condition and Function",
+          "name": "Zero adjustment",
+          "type": "String",
+          "textValue": "Yes",
+          "uomData": null
+        },
+        "metadata": {
+          "source": "eqhub",
+          "createdAt": "2024-10-24T07:21:10.242Z",
+          "updatedAt": "2024-10-31T06:31:56.144Z",
+          "createdBy": {
+            "id": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+            "companyId": 133
+          },
+          "updatedBy": {
+            "id": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+            "companyId": 133
+          },
+          "createdById": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+          "updatedById": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5"
+        }
+      },
+      {
+        "propertyRequirement": {
+          "libraryVersion": "0.0.0.28",
+          "propertyRequirementId": "EQATTR200092",
+          "name": "Ambient temperature",
+          "description": "The temperature which is the lowest and highest ambient temperature under which a functional and physical object is supposed to operate.",
+          "groupId": "Safety and Environment",
+          "concept": "Physical",
+          "dataType": "Range",
+          "sample": "-40 - 85 °C",
+          "uomRequired": true,
+          "uomClassId": "UOMCL200047",
+          "standardsReferencesData": [
+            {
+              "name": "POSC CAESAR",
+              "propertyRequirementId": "RDS1411476491",
+              "_id": "670e58d25becd923bd3c83a2"
+            }
+          ]
+        },
+        "data": {
+          "group": "Safety and Environment",
+          "name": "Ambient temperature",
+          "type": "Range",
+          "textValueLower": "-40",
+          "textValueUpper": "80",
+          "uomData": {
+            "uomName": "degC",
+            "uomGroupId": "Temperature",
+            "uomSymbol": "°C"
+          }
+        },
+        "metadata": {
+          "source": "eqhub",
+          "createdAt": "2024-10-24T07:21:10.242Z",
+          "updatedAt": "2024-10-31T06:31:56.144Z",
+          "createdBy": {
+            "id": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+            "companyId": 133
+          },
+          "updatedBy": {
+            "id": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+            "companyId": 133
+          },
+          "createdById": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+          "updatedById": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5"
+        }
+      },
+      {
+        "propertyRequirement": {
+          "libraryVersion": "0.0.0.28",
+          "propertyRequirementId": "EQATTR200498",
+          "name": "EX certificate number",
+          "description": "The examination certificate number for the physical object issued by a notified body.",
+          "groupId": "Safety and Environment",
+          "concept": "Physical",
+          "dataType": "String",
+          "sample": "BAS 97ATEX1089X",
+          "uomRequired": false,
+          "standardsReferencesData": [
+            {
+              "name": "POSC CAESAR",
+              "propertyRequirementId": "RDS1387306211",
+              "_id": "670e58d35becd923bd3c89e4"
+            },
+            {
+              "name": "CFIHOS",
+              "propertyRequirementId": "CFIHOS-40000109  explosion protection examination certificate number",
+              "_id": "670e58d35becd923bd3c89e5"
+            }
+          ]
+        },
+        "data": {
+          "group": "Safety and Environment",
+          "name": "EX certificate number",
+          "type": "String",
+          "textValue": "18ATEX2257X",
+          "uomData": null
+        },
+        "metadata": {
+          "source": "eqhub",
+          "createdAt": "2024-10-24T07:21:10.242Z",
+          "updatedAt": "2024-10-31T06:31:56.144Z",
+          "createdBy": {
+            "id": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+            "companyId": 133
+          },
+          "updatedBy": {
+            "id": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+            "companyId": 133
+          },
+          "createdById": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+          "updatedById": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5"
+        }
+      },
+      {
+        "propertyRequirement": {
+          "libraryVersion": "0.0.0.28",
+          "propertyRequirementId": "EQATTR200669",
+          "name": "Hazardous area",
+          "description": "Confirm whether the device does or does not meet the demands regarding Hazardous Area regulations.",
+          "groupId": "Safety and Environment",
+          "concept": "Physical",
+          "dataType": "String",
+          "sample": "Not Ex",
+          "uomRequired": false
+        },
+        "data": {
+          "group": "Safety and Environment",
+          "name": "Hazardous area",
+          "type": "String",
+          "textValue": "Ex",
+          "uomData": null
+        },
+        "metadata": {
+          "source": "eqhub",
+          "createdAt": "2024-10-24T07:21:10.242Z",
+          "updatedAt": "2024-10-31T06:31:56.144Z",
+          "createdBy": {
+            "id": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+            "companyId": 133
+          },
+          "updatedBy": {
+            "id": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+            "companyId": 133
+          },
+          "createdById": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+          "updatedById": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5"
+        }
+      },
+      {
+        "propertyRequirement": {
+          "libraryVersion": "0.0.0.28",
+          "propertyRequirementId": "EQATTR201807",
+          "name": "Temperature class",
+          "description": "Specifies the temperature classification of the physical object in accordance to a known standard.",
+          "groupId": "Safety and Environment",
+          "concept": "Physical",
+          "dataType": "String",
+          "sample": "T5",
+          "uomRequired": false,
+          "standardsReferencesData": [
+            {
+              "name": "POSC CAESAR",
+              "propertyRequirementId": "RDS1398418861",
+              "_id": "670e58d35becd923bd3c89e8"
+            },
+            {
+              "name": "CFIHOS",
+              "propertyRequirementId": "CFIHOS-40000112  explosion protection temperature class",
+              "_id": "670e58d35becd923bd3c89e9"
+            }
+          ]
+        },
+        "data": {
+          "group": "Safety and Environment",
+          "name": "Temperature class",
+          "type": "String",
+          "textValue": "T4",
+          "uomData": null
+        },
+        "metadata": {
+          "source": "eqhub",
+          "createdAt": "2024-10-24T07:21:10.242Z",
+          "updatedAt": "2024-10-31T06:31:56.144Z",
+          "createdBy": {
+            "id": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+            "companyId": 133
+          },
+          "updatedBy": {
+            "id": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+            "companyId": 133
+          },
+          "createdById": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+          "updatedById": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5"
+        }
+      },
+      {
+        "propertyRequirement": {
+          "libraryVersion": "0.0.0.28",
+          "propertyRequirementId": "EQATTR200012",
+          "name": "Approval authority",
+          "description": "The name of the nationally accredited approval body that has issued the examination certificate for the physical object.",
+          "groupId": "Safety and Environment",
+          "concept": "Physical",
+          "dataType": "String",
+          "sample": "BASEEFA",
+          "uomRequired": false,
+          "standardsReferencesData": [
+            {
+              "name": "POSC CAESAR",
+              "propertyRequirementId": "RDS1387136651",
+              "_id": "670e58d35becd923bd3c89f3"
+            },
+            {
+              "name": "CFIHOS",
+              "propertyRequirementId": "CFIHOS-40000111  explosion protection notified body",
+              "_id": "670e58d35becd923bd3c89f4"
+            }
+          ]
+        },
+        "data": {
+          "group": "Safety and Environment",
+          "name": "Approval authority",
+          "type": "String",
+          "textValue": "SIRA",
+          "uomData": null
+        },
+        "metadata": {
+          "source": "eqhub",
+          "createdAt": "2024-10-24T07:21:10.242Z",
+          "updatedAt": "2024-10-31T06:31:56.144Z",
+          "createdBy": {
+            "id": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+            "companyId": 133
+          },
+          "updatedBy": {
+            "id": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+            "companyId": 133
+          },
+          "createdById": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+          "updatedById": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5"
+        }
+      },
+      {
+        "propertyRequirement": {
+          "libraryVersion": "0.0.0.28",
+          "propertyRequirementId": "EQATTR200019",
+          "name": "ATEX category",
+          "description": "Specifies in which category the physical object is divided in accordance with the directive 94/9/EC.",
+          "groupId": "Safety and Environment",
+          "concept": "Physical",
+          "dataType": "String",
+          "sample": "1",
+          "uomRequired": false,
+          "standardsReferencesData": [
+            {
+              "name": "POSC CAESAR",
+              "propertyRequirementId": "RDS1400293391",
+              "_id": "670e58d35becd923bd3c89f8"
+            },
+            {
+              "name": "CFIHOS",
+              "propertyRequirementId": "CFIHOS-40000009  ATEX category",
+              "_id": "670e58d35becd923bd3c89f9"
+            }
+          ]
+        },
+        "data": {
+          "group": "Safety and Environment",
+          "name": "ATEX category",
+          "type": "String",
+          "textValue": "1",
+          "uomData": null
+        },
+        "metadata": {
+          "source": "eqhub",
+          "createdAt": "2024-10-24T07:21:10.242Z",
+          "updatedAt": "2024-10-31T06:31:56.144Z",
+          "createdBy": {
+            "id": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+            "companyId": 133
+          },
+          "updatedBy": {
+            "id": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+            "companyId": 133
+          },
+          "createdById": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+          "updatedById": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5"
+        }
+      },
+      {
+        "propertyRequirement": {
+          "libraryVersion": "0.0.0.28",
+          "propertyRequirementId": "EQATTR200020",
+          "name": "ATEX explosive atmosphere",
+          "description": "Specifies in which explosive atmosphere the physical object is divided in accordance with the directive 94/9/EC.",
+          "groupId": "Safety and Environment",
+          "concept": "Physical",
+          "dataType": "String",
+          "sample": "G",
+          "uomRequired": false,
+          "standardsReferencesData": [
+            {
+              "name": "POSC CAESAR",
+              "propertyRequirementId": "RDS1400874491",
+              "_id": "670e58d35becd923bd3c89fb"
+            },
+            {
+              "name": "CFIHOS",
+              "propertyRequirementId": "CFIHOS-40000010  ATEX explosive atmosphere",
+              "_id": "670e58d35becd923bd3c89fc"
+            }
+          ]
+        },
+        "data": {
+          "group": "Safety and Environment",
+          "name": "ATEX explosive atmosphere",
+          "type": "String",
+          "textValue": "G",
+          "uomData": null
+        },
+        "metadata": {
+          "source": "eqhub",
+          "createdAt": "2024-10-24T07:21:10.242Z",
+          "updatedAt": "2024-10-31T06:31:56.144Z",
+          "createdBy": {
+            "id": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+            "companyId": 133
+          },
+          "updatedBy": {
+            "id": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+            "companyId": 133
+          },
+          "createdById": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+          "updatedById": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5"
+        }
+      },
+      {
+        "propertyRequirement": {
+          "libraryVersion": "0.0.0.28",
+          "propertyRequirementId": "EQATTR200021",
+          "name": "ATEX group",
+          "description": "Specifies in which group the physical object is divided in accordance with the directive 94/9/EC.",
+          "groupId": "Safety and Environment",
+          "concept": "Physical",
+          "dataType": "String",
+          "sample": "II",
+          "uomRequired": false,
+          "standardsReferencesData": [
+            {
+              "name": "POSC CAESAR",
+              "propertyRequirementId": "RDS1400292951",
+              "_id": "670e58d35becd923bd3c89fe"
+            },
+            {
+              "name": "CFIHOS",
+              "propertyRequirementId": "CFIHOS-40000011  ATEX group",
+              "_id": "670e58d35becd923bd3c89ff"
+            }
+          ]
+        },
+        "data": {
+          "group": "Safety and Environment",
+          "name": "ATEX group",
+          "type": "String",
+          "textValue": "II",
+          "uomData": null
+        },
+        "metadata": {
+          "source": "eqhub",
+          "createdAt": "2024-10-24T07:21:10.242Z",
+          "updatedAt": "2024-10-31T06:31:56.144Z",
+          "createdBy": {
+            "id": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+            "companyId": 133
+          },
+          "updatedBy": {
+            "id": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+            "companyId": 133
+          },
+          "createdById": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+          "updatedById": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5"
+        }
+      },
+      {
+        "propertyRequirement": {
+          "libraryVersion": "0.0.0.28",
+          "propertyRequirementId": "EQATTR200207",
+          "name": "CE marking",
+          "description": "Identification number of the hazardous area notifying body responsible for the approval.",
+          "groupId": "Safety and Environment",
+          "concept": "Physical",
+          "dataType": "String",
+          "sample": "CE0081",
+          "uomRequired": false,
+          "standardsReferencesData": [
+            {
+              "name": "POSC CAESAR",
+              "propertyRequirementId": "RDS1387343801",
+              "_id": "670e58d35becd923bd3c8a39"
+            }
+          ]
+        },
+        "data": {
+          "group": "Safety and Environment",
+          "name": "CE marking",
+          "type": "String",
+          "textValue": "CE2813",
+          "uomData": null
+        },
+        "metadata": {
+          "source": "eqhub",
+          "createdAt": "2024-10-24T07:21:10.242Z",
+          "updatedAt": "2024-10-31T06:31:56.144Z",
+          "createdBy": {
+            "id": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+            "companyId": 133
+          },
+          "updatedBy": {
+            "id": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+            "companyId": 133
+          },
+          "createdById": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+          "updatedById": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5"
+        }
+      },
+      {
+        "propertyRequirement": {
+          "libraryVersion": "0.0.0.28",
+          "propertyRequirementId": "EQATTR200495",
+          "name": "Equipment protection level",
+          "description": "(EPL) Specifies the protection level of electrical equipment's explosion protection in accordance to EN 60079-0.",
+          "groupId": "Safety and Environment",
+          "concept": "Physical",
+          "dataType": "String",
+          "sample": "Ga",
+          "uomRequired": false
+        },
+        "data": {
+          "group": "Safety and Environment",
+          "name": "Equipment protection level",
+          "type": "String",
+          "textValue": "Ga",
+          "uomData": null
+        },
+        "metadata": {
+          "source": "eqhub",
+          "createdAt": "2024-10-24T07:21:10.242Z",
+          "updatedAt": "2024-10-31T06:31:56.144Z",
+          "createdBy": {
+            "id": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+            "companyId": 133
+          },
+          "updatedBy": {
+            "id": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+            "companyId": 133
+          },
+          "createdById": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+          "updatedById": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5"
+        }
+      },
+      {
+        "propertyRequirement": {
+          "libraryVersion": "0.0.0.28",
+          "propertyRequirementId": "EQATTR200507",
+          "name": "Explosion protection",
+          "description": "Specifies the identification of electrical equipment's explosion protection and type of ignition protection in accordance to a known standard.",
+          "groupId": "Safety and Environment",
+          "concept": "Physical",
+          "dataType": "String",
+          "sample": "EEx ia",
+          "uomRequired": false,
+          "standardsReferencesData": [
+            {
+              "name": "POSC CAESAR",
+              "propertyRequirementId": "RDS1422547761",
+              "_id": "670e58d35becd923bd3c8aba"
+            },
+            {
+              "name": "CFIHOS",
+              "propertyRequirementId": "CFIHOS-40000108  explosion protection concept",
+              "_id": "670e58d35becd923bd3c8abb"
+            }
+          ]
+        },
+        "data": {
+          "group": "Safety and Environment",
+          "name": "Explosion protection",
+          "type": "String",
+          "textValue": "Ex ia",
+          "uomData": null
+        },
+        "metadata": {
+          "source": "eqhub",
+          "createdAt": "2024-10-24T07:21:10.242Z",
+          "updatedAt": "2024-10-31T06:31:56.144Z",
+          "createdBy": {
+            "id": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+            "companyId": 133
+          },
+          "updatedBy": {
+            "id": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+            "companyId": 133
+          },
+          "createdById": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+          "updatedById": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5"
+        }
+      },
+      {
+        "propertyRequirement": {
+          "libraryVersion": "0.0.0.28",
+          "propertyRequirementId": "EQATTR200777",
+          "name": "IP-Class",
+          "description": "A code for an electrical apparatus degree of protection against the intrusion of solid objects, dust, accidental contact, water intrusion or mechanical impact to a known standard.",
+          "groupId": "Safety and Environment",
+          "concept": "Physical",
+          "dataType": "String",
+          "sample": "IP66",
+          "uomRequired": false,
+          "standardsReferencesData": [
+            {
+              "name": "POSC CAESAR",
+              "propertyRequirementId": "RDS1387434081",
+              "_id": "670e58d35becd923bd3c8bf4"
+            },
+            {
+              "name": "CFIHOS",
+              "propertyRequirementId": "CFIHOS-40000173  ingress protection",
+              "_id": "670e58d35becd923bd3c8bf5"
+            }
+          ]
+        },
+        "data": {
+          "group": "Safety and Environment",
+          "name": "IP-Class",
+          "type": "String",
+          "textValue": "IP66/ IP67",
+          "uomData": null
+        },
+        "metadata": {
+          "source": "eqhub",
+          "createdAt": "2024-10-24T07:21:10.242Z",
+          "updatedAt": "2024-10-31T06:31:56.144Z",
+          "createdBy": {
+            "id": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+            "companyId": 133
+          },
+          "updatedBy": {
+            "id": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+            "companyId": 133
+          },
+          "createdById": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+          "updatedById": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5"
+        }
+      },
+      {
+        "propertyRequirement": {
+          "libraryVersion": "0.0.0.28",
+          "propertyRequirementId": "EQATTR200620",
+          "name": "Gas-group",
+          "description": "Specifies the gas group classification of the physical object in accordance to a known standard.",
+          "groupId": "Safety and Environment",
+          "concept": "Physical",
+          "dataType": "String",
+          "sample": "IIC",
+          "uomRequired": false,
+          "standardsReferencesData": [
+            {
+              "name": "POSC CAESAR",
+              "propertyRequirementId": "RDS1400246091",
+              "_id": "670e58d35becd923bd3c8c8b"
+            },
+            {
+              "name": "CFIHOS",
+              "propertyRequirementId": "CFIHOS-40000110  explosion protection gas group",
+              "_id": "670e58d35becd923bd3c8c8c"
+            }
+          ]
+        },
+        "data": {
+          "group": "Safety and Environment",
+          "name": "Gas-group",
+          "type": "String",
+          "textValue": "IIC",
+          "uomData": null
+        },
+        "metadata": {
+          "source": "eqhub",
+          "createdAt": "2024-10-24T07:21:10.242Z",
+          "updatedAt": "2024-10-31T06:31:56.144Z",
+          "createdBy": {
+            "id": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+            "companyId": 133
+          },
+          "updatedBy": {
+            "id": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+            "companyId": 133
+          },
+          "createdById": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+          "updatedById": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5"
+        }
+      },
+      {
+        "propertyRequirement": {
+          "libraryVersion": "0.0.0.28",
+          "propertyRequirementId": "EQATTR200847",
+          "name": "Load limitation",
+          "groupId": "Electrical",
+          "concept": "Physical",
+          "dataType": "Decimal",
+          "sample": "587 Ohm",
+          "uomRequired": true,
+          "uomClassId": "UOMCL200040"
+        },
+        "data": {
+          "group": "Electrical",
+          "name": "Load limitation",
+          "type": "Decimal",
+          "numericalValue": "",
+          "uomData": { "uomSymbol": "" }
+        },
+        "metadata": {
+          "source": "eqhub",
+          "createdAt": "2024-10-24T07:21:10.242Z",
+          "updatedAt": "2024-10-31T06:31:56.144Z",
+          "createdBy": {
+            "id": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+            "companyId": 133
+          },
+          "updatedBy": {
+            "id": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+            "companyId": 133
+          },
+          "createdById": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+          "updatedById": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5"
+        }
+      },
+      {
+        "propertyRequirement": {
+          "libraryVersion": "0.0.0.28",
+          "propertyRequirementId": "EQATTR201392",
+          "name": "Power consumption",
+          "description": "The power which is the lowest and highest power consumption a functional or physical object is supposed to consume.",
+          "groupId": "Electrical",
+          "concept": "Physical",
+          "dataType": "Range",
+          "sample": "18 - 36 mW",
+          "uomRequired": true,
+          "uomClassId": "UOMCL200030",
+          "standardsReferencesData": [
+            {
+              "name": "POSC CAESAR",
+              "propertyRequirementId": "RDS1411653161",
+              "_id": "670e58d35becd923bd3c87be"
+            }
+          ]
+        },
+        "data": {
+          "group": "Electrical",
+          "name": "Power consumption",
+          "type": "Range",
+          "textValueLower": "",
+          "textValueUpper": "0.9",
+          "uomData": { "uomName": "W", "uomGroupId": "Power", "uomSymbol": "W" }
+        },
+        "metadata": {
+          "source": "eqhub",
+          "createdAt": "2024-10-24T07:21:10.242Z",
+          "updatedAt": "2024-10-31T06:31:56.144Z",
+          "createdBy": {
+            "id": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+            "companyId": 133
+          },
+          "updatedBy": {
+            "id": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+            "companyId": 133
+          },
+          "createdById": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+          "updatedById": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5"
+        }
+      },
+      {
+        "propertyRequirement": {
+          "libraryVersion": "0.0.0.28",
+          "propertyRequirementId": "EQATTR201775",
+          "name": "Supply voltage range",
+          "description": "The rated or nominal, lowest and highest voltage which can be supplied to an object.",
+          "groupId": "Electrical",
+          "concept": "Physical",
+          "dataType": "Range",
+          "sample": "220 - 240 V AC",
+          "uomRequired": true,
+          "uomClassId": "UOMCL200054",
+          "standardsReferencesData": [
+            {
+              "name": "POSC CAESAR",
+              "propertyRequirementId": "RDS1411426101",
+              "_id": "670e58d35becd923bd3c88d9"
+            }
+          ]
+        },
+        "data": {
+          "group": "Electrical",
+          "name": "Supply voltage range",
+          "type": "Range",
+          "textValueLower": "16",
+          "textValueUpper": "28",
+          "uomData": {
+            "uomName": "V",
+            "uomGroupId": "Voltage",
+            "uomSymbol": "V"
+          }
+        },
+        "metadata": {
+          "source": "eqhub",
+          "createdAt": "2024-10-24T07:21:10.242Z",
+          "updatedAt": "2024-10-31T06:31:56.144Z",
+          "createdBy": {
+            "id": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+            "companyId": 133
+          },
+          "updatedBy": {
+            "id": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+            "companyId": 133
+          },
+          "createdById": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+          "updatedById": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5"
+        }
+      },
+      {
+        "propertyRequirement": {
+          "libraryVersion": "0.0.0.28",
+          "propertyRequirementId": "EQATTR201074",
+          "name": "Non process cover material",
+          "description": "The material of construction for the structural part of a functional or physical object which is not in contact with the process.",
+          "groupId": "Materials, Insulations and Coating",
+          "concept": "Physical",
+          "dataType": "String",
+          "sample": "316",
+          "uomRequired": false
+        },
+        "data": {
+          "group": "Materials, Insulations and Coating",
+          "name": "Non process cover material",
+          "type": "String",
+          "textValue": "316",
+          "uomData": null
+        },
+        "metadata": {
+          "source": "eqhub",
+          "createdAt": "2024-10-24T07:21:10.242Z",
+          "updatedAt": "2024-10-31T06:31:56.144Z",
+          "createdBy": {
+            "id": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+            "companyId": 133
+          },
+          "updatedBy": {
+            "id": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+            "companyId": 133
+          },
+          "createdById": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+          "updatedById": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5"
+        }
+      },
+      {
+        "propertyRequirement": {
+          "libraryVersion": "0.0.0.28",
+          "propertyRequirementId": "EQATTR201424",
+          "name": "Process connection design",
+          "description": "Specifies the design of the physical objects connection to the process.",
+          "groupId": "Connections",
+          "concept": "Physical",
+          "dataType": "String",
+          "sample": "NPT",
+          "uomRequired": false
+        },
+        "data": {
+          "group": "Connections",
+          "name": "Process connection design",
+          "type": "String",
+          "textValue": "",
+          "uomData": null
+        },
+        "metadata": {
+          "source": "eqhub",
+          "createdAt": "2024-10-24T07:21:10.243Z",
+          "updatedAt": "2024-10-31T06:31:56.144Z",
+          "createdBy": {
+            "id": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+            "companyId": 133
+          },
+          "updatedBy": {
+            "id": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+            "companyId": 133
+          },
+          "createdById": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+          "updatedById": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5"
+        }
+      },
+      {
+        "propertyRequirement": {
+          "libraryVersion": "0.0.0.28",
+          "propertyRequirementId": "EQATTR201427",
+          "name": "Process connection size",
+          "description": "Specifies the size of the physical objects connection to the process.",
+          "groupId": "Connections",
+          "concept": "Physical",
+          "dataType": "String",
+          "sample": "1/4 \"",
+          "uomRequired": false
+        },
+        "data": {
+          "group": "Connections",
+          "name": "Process connection size",
+          "type": "String",
+          "textValue": "",
+          "uomData": null
+        },
+        "metadata": {
+          "source": "eqhub",
+          "createdAt": "2024-10-24T07:21:10.243Z",
+          "updatedAt": "2024-10-31T06:31:56.144Z",
+          "createdBy": {
+            "id": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+            "companyId": 133
+          },
+          "updatedBy": {
+            "id": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+            "companyId": 133
+          },
+          "createdById": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+          "updatedById": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5"
+        }
+      },
+      {
+        "propertyRequirement": {
+          "libraryVersion": "0.0.0.28",
+          "propertyRequirementId": "EQATTR201769",
+          "name": "Supply connection design",
+          "description": "Specifies the design of the physical objects connection to the electrical or fluidic control supply source.",
+          "groupId": "Connections",
+          "concept": "Physical",
+          "dataType": "String",
+          "sample": "Metric Threaded",
+          "uomRequired": false
+        },
+        "data": {
+          "group": "Connections",
+          "name": "Supply connection design",
+          "type": "String",
+          "textValue": "",
+          "uomData": null
+        },
+        "metadata": {
+          "source": "eqhub",
+          "createdAt": "2024-10-24T07:21:10.243Z",
+          "updatedAt": "2024-10-31T06:31:56.144Z",
+          "createdBy": {
+            "id": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+            "companyId": 133
+          },
+          "updatedBy": {
+            "id": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+            "companyId": 133
+          },
+          "createdById": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+          "updatedById": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5"
+        }
+      },
+      {
+        "propertyRequirement": {
+          "libraryVersion": "0.0.0.28",
+          "propertyRequirementId": "EQATTR201770",
+          "name": "Supply connection size",
+          "description": "Specifies the size of the physical objects connection to the electrical or fluidic control supply source.",
+          "groupId": "Connections",
+          "concept": "Physical",
+          "dataType": "String",
+          "sample": "20 mm",
+          "uomRequired": false
+        },
+        "data": {
+          "group": "Connections",
+          "name": "Supply connection size",
+          "type": "String",
+          "textValue": "",
+          "uomData": null
+        },
+        "metadata": {
+          "source": "eqhub",
+          "createdAt": "2024-10-24T07:21:10.243Z",
+          "updatedAt": "2024-10-31T06:31:56.144Z",
+          "createdBy": {
+            "id": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+            "companyId": 133
+          },
+          "updatedBy": {
+            "id": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+            "companyId": 133
+          },
+          "createdById": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+          "updatedById": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5"
+        }
+      },
+      {
+        "propertyRequirement": {
+          "libraryVersion": "0.0.0.28",
+          "propertyRequirementId": "EQATTR201866",
+          "name": "Thread pitch, process connection",
+          "description": "Specifies the number of threads pr. inch referred to in the imperial system or how many mm between each thread in the ISO metric system for the process connection design.",
+          "groupId": "Connections",
+          "concept": "Physical",
+          "dataType": "Decimal",
+          "sample": "14 thr/in",
+          "uomRequired": true,
+          "uomClassId": "UOMCL200049"
+        },
+        "data": {
+          "group": "Connections",
+          "name": "Thread pitch, process connection",
+          "type": "Decimal",
+          "numericalValue": "",
+          "uomData": {
+            "uomName": "mm/thr",
+            "uomGroupId": "Thread Pitch",
+            "uomSymbol": "mm/thr"
+          }
+        },
+        "metadata": {
+          "source": "eqhub",
+          "createdAt": "2024-10-24T07:21:10.243Z",
+          "updatedAt": "2024-10-31T06:31:56.144Z",
+          "createdBy": {
+            "id": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+            "companyId": 133
+          },
+          "updatedBy": {
+            "id": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+            "companyId": 133
+          },
+          "createdById": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+          "updatedById": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5"
+        }
+      },
+      {
+        "propertyRequirement": {
+          "libraryVersion": "0.0.0.28",
+          "propertyRequirementId": "EQATTR201870",
+          "name": "Thread pitch, supply connection",
+          "description": "Specifies the number of threads per inch referred to the imperial system or how many mm between each thread in the ISO metric system for the electrical or fluidic control supply connection design.",
+          "groupId": "Connections",
+          "concept": "Physical",
+          "dataType": "Decimal",
+          "sample": "1.5 mm/thr",
+          "uomRequired": true,
+          "uomClassId": "UOMCL200049"
+        },
+        "data": {
+          "group": "Connections",
+          "name": "Thread pitch, supply connection",
+          "type": "Decimal",
+          "numericalValue": "",
+          "uomData": {
+            "uomName": "mm/thr",
+            "uomGroupId": "Thread Pitch",
+            "uomSymbol": "mm/thr"
+          }
+        },
+        "metadata": {
+          "source": "eqhub",
+          "createdAt": "2024-10-24T07:21:10.243Z",
+          "updatedAt": "2024-10-31T06:31:56.144Z",
+          "createdBy": {
+            "id": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+            "companyId": 133
+          },
+          "updatedBy": {
+            "id": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+            "companyId": 133
+          },
+          "createdById": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+          "updatedById": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5"
+        }
+      },
+      {
+        "propertyRequirement": {
+          "libraryVersion": "0.0.0.28",
+          "propertyRequirementId": "EQATTR200487",
+          "name": "Element arrangement",
+          "description": "Assign if the measuring element is remote or local mounted.",
+          "groupId": "Construction and Accessories",
+          "concept": "Physical",
+          "dataType": "String",
+          "sample": "Local",
+          "uomRequired": false
+        },
+        "data": {
+          "group": "Construction and Accessories",
+          "name": "Element arrangement",
+          "type": "String",
+          "textValue": "Remote",
+          "uomData": null
+        },
+        "metadata": {
+          "source": "eqhub",
+          "createdAt": "2024-10-24T07:21:10.243Z",
+          "updatedAt": "2024-10-31T06:31:56.144Z",
+          "createdBy": {
+            "id": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+            "companyId": 133
+          },
+          "updatedBy": {
+            "id": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+            "companyId": 133
+          },
+          "createdById": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+          "updatedById": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5"
+        }
+      },
+      {
+        "propertyRequirement": {
+          "libraryVersion": "0.0.0.28",
+          "propertyRequirementId": "EQATTR200744",
+          "name": "Indicator",
+          "description": "Assign if an indicator is included.",
+          "groupId": "Construction and Accessories",
+          "concept": "Physical",
+          "dataType": "String",
+          "sample": "Indicator fitted",
+          "uomRequired": false
+        },
+        "data": {
+          "group": "Construction and Accessories",
+          "name": "Indicator",
+          "type": "String",
+          "textValue": "Yes",
+          "uomData": null
+        },
+        "metadata": {
+          "source": "eqhub",
+          "createdAt": "2024-10-24T07:21:10.243Z",
+          "updatedAt": "2024-10-31T06:31:56.144Z",
+          "createdBy": {
+            "id": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+            "companyId": 133
+          },
+          "updatedBy": {
+            "id": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+            "companyId": 133
+          },
+          "createdById": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+          "updatedById": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5"
+        }
+      }
+    ],
+    "propertiesAbsenceReasonComment": "Not applicable",
+    "documentsRegistrations": [
+      {
+        "documentRequirement": {
+          "libraryVersion": "0.0.0.28",
+          "documentRequirementId": "NOZTI_1",
+          "discipline": "Product Typical",
+          "documentCategory": {
+            "requirementsDocumentCategoryId": "NOZTI_1",
+            "name": "Installation, operation and maintenance instructions",
+            "description": "The manufacturer's standard IOM should be used as far as possible.This document shall provide sufficient information to install, operate and maintain the equipment.This document shall also provide sufficient information for troubleshooting.",
+            "extendedStandard": "Z018",
+            "lifeCycleType": "EQLCT200001"
+          },
+          "validationType": "Association",
+          "presence": "Required",
+          "reqType": "M",
+          "delivery": "DFO"
+        },
+        "documentRevision": {
+          "uuid": "0b441476-dd0a-489a-b5cf-10c785fa2eda",
+          "data": {
+            "fileHash": "84d5b4ab4f33aeb93714eaf7b00f462a",
+            "manufacturerId": "1000079",
+            "manufacturerName": "Honeywell Industrial Automation",
+            "eqhubDocumentId": 100010415,
+            "eqhubDocumentVersion": 1,
+            "documentNumber": "34-SW-25-04",
+            "documentTitle": "SmartLine Wireless Temperature and Universal I/O Transmitters User’s manual",
+            "originalFileName": "pmt-hps-34-sw-25-04-wireless-temp.pdf",
+            "documentRevisionTitle": "2",
+            "documentRevisionDate": "2022-10-31T23:00:00.000Z",
+            "isLastVersion": true
+          },
+          "metadata": {
+            "source": "eqhub",
+            "createdAt": "2024-10-18T12:22:58.485Z",
+            "updatedAt": "2024-10-18T12:22:58.485Z",
+            "createdBy": {
+              "id": "cf3d85e3-ef07-4a07-a7a1-1b06dd61d5aa",
+              "companyId": 133
+            },
+            "updatedBy": {
+              "id": "cf3d85e3-ef07-4a07-a7a1-1b06dd61d5aa",
+              "companyId": 133
+            },
+            "createdById": "cf3d85e3-ef07-4a07-a7a1-1b06dd61d5aa",
+            "updatedById": "cf3d85e3-ef07-4a07-a7a1-1b06dd61d5aa",
+            "companyInfo": { "id": 133, "name": "ORIGO SOLUTIONS AS" }
+          },
+          "accessConfiguration": {
+            "accessType": "all",
+            "createdAt": "2024-10-18T12:22:58.485Z",
+            "createdBy": {
+              "id": "cf3d85e3-ef07-4a07-a7a1-1b06dd61d5aa",
+              "companyId": 133
+            },
+            "updatedBy": null,
+            "createdById": "cf3d85e3-ef07-4a07-a7a1-1b06dd61d5aa",
+            "whiteList": null
+          },
+          "status": "published",
+          "requirementsCategories": [
+            {
+              "requirementsDocumentCategoryId": "NOZTI_1",
+              "name": "Installation, operation and maintenance instructions",
+              "description": "The manufacturer's standard IOM should be used as far as possible.This document shall provide sufficient information to install, operate and maintain the equipment.This document shall also provide sufficient information for troubleshooting.",
+              "extendedStandard": "Z018",
+              "lifeCycleType": "EQLCT200001"
+            },
+            {
+              "requirementsDocumentCategoryId": "NOZTI_2",
+              "name": "Spare part list",
+              "description": "Mandatory content of information:- Item reference number- Quantity- Part number or global identifier (together with manufacturer / supplier)- Part name.Optional content of information:- Type designation- Specifying technical data- Descriptive technical data- Mass, dimensions- Reference to document- Remark.",
+              "extendedStandard": "Z018",
+              "lifeCycleType": "EQLCT200001"
+            },
+            {
+              "requirementsDocumentCategoryId": "NOZTI_15",
+              "name": "Data sheet",
+              "description": "This document provides structured data form containing part number/model, design information,operational data and limitations of the equipment. Document shall provide information on technical data and characteristics about material, products or systems and their environment for proper implementation.",
+              "extendedStandard": "Z018",
+              "lifeCycleType": "EQLCT200001"
+            },
+            {
+              "requirementsDocumentCategoryId": "NOZTI_17",
+              "name": "Detail cross sectional drawings with parts list",
+              "description": "A view or drawing that shows what the inside of equipment looks like after a cross-sectional cut has been made.The manufacturer's standard detail cross sectional drawing shall be delivered.Typical information may be:• Items list with reference to supplier’s part number.• Material definition with reference to relevant standards",
+              "extendedStandard": "Z018",
+              "lifeCycleType": "EQLCT200001"
+            },
+            {
+              "requirementsDocumentCategoryId": "NOZTI_27",
+              "name": "Packing, storage, preservation, lifting, transportation and handling procedure",
+              "description": "A compound document that may contain: • Packing lists• Instructions for transport• Handling• Lifting• Storage location and requirements• Preservation of the equipment during short- and long term storage• Maintenance intervals• Inspection intervals• Instructions for unpacking if applicable• Completed applicable forms for mechanical completion• Certificate of conformity, data sheets• Preservation log• Certificate for lifting equipment• Material certificates",
+              "extendedStandard": "Z018",
+              "lifeCycleType": "EQLCT200001"
+            },
+            {
+              "requirementsDocumentCategoryId": "NOZTI_123",
+              "name": "Termination and wiring diagram",
+              "description": "Document to identify terminals for external connection, including marking (if applicable) and signal/power description. Cable entry information may be included in this drawing or part of valve drawing. The supplier standard drawing to be delivered if existing.",
+              "extendedStandard": "Z018",
+              "lifeCycleType": "EQLCT200001"
+            },
+            {
+              "requirementsDocumentCategoryId": "EQHUB_1",
+              "name": "Product description and ordering information",
+              "extendedStandard": "EQHUB",
+              "lifeCycleType": "EQLCT200001"
+            },
+            {
+              "requirementsDocumentCategoryId": "NOZTI_16",
+              "name": "General Arrangement drawing",
+              "description": "The manufacturer's standard general arrangement should be used as far as possible.A drawing showing overall dimensions, critical interface dimensions, part references and weight of assemblies, equipment and components. The drawing shallcontain reference to main specifications and standards For equipment / components the drawing may include cross sectional views.Document may contain the following information:• Main dimensions• Interface connections• Weight• Centre of gravity• Withdrawal/installation and maintenance space.• Installation and mounting details• Lifting arrangement",
+              "extendedStandard": "Z018",
+              "lifeCycleType": "EQLCT200001"
+            }
+          ]
+        },
+        "absenceReasonComment": "",
+        "isRequired": true,
+        "metadata": {
+          "source": "eqhub",
+          "updatedAt": "2024-10-31T06:31:44.935Z",
+          "createdAt": "2024-10-24T07:53:01.667Z",
+          "createdBy": {
+            "id": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+            "companyId": 133
+          },
+          "updatedBy": {
+            "id": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+            "companyId": 133
+          },
+          "createdById": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+          "updatedById": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+          "companyInfo": { "id": 133, "name": "ORIGO SOLUTIONS AS" }
+        },
+        "historicalData": null,
+        "unlinkedDocumentData": null
+      },
+      {
+        "documentRequirement": {
+          "libraryVersion": "0.0.0.28",
+          "documentRequirementId": "NOZTI_2",
+          "discipline": "Product Typical",
+          "documentCategory": {
+            "requirementsDocumentCategoryId": "NOZTI_2",
+            "name": "Spare part list",
+            "description": "Mandatory content of information:- Item reference number- Quantity- Part number or global identifier (together with manufacturer / supplier)- Part name.Optional content of information:- Type designation- Specifying technical data- Descriptive technical data- Mass, dimensions- Reference to document- Remark.",
+            "extendedStandard": "Z018",
+            "lifeCycleType": "EQLCT200001"
+          },
+          "validationType": "Association",
+          "presence": "Preferred",
+          "requirementCondition": "{geicl:notderivable}When supplier consider spare parts to be applicable. If replaced by complete unit this document is not required.",
+          "reqType": "C",
+          "delivery": "DFO"
+        },
+        "documentRevision": {
+          "uuid": "0b441476-dd0a-489a-b5cf-10c785fa2eda",
+          "data": {
+            "fileHash": "84d5b4ab4f33aeb93714eaf7b00f462a",
+            "manufacturerId": "1000079",
+            "manufacturerName": "Honeywell Industrial Automation",
+            "eqhubDocumentId": 100010415,
+            "eqhubDocumentVersion": 1,
+            "documentNumber": "34-SW-25-04",
+            "documentTitle": "SmartLine Wireless Temperature and Universal I/O Transmitters User’s manual",
+            "originalFileName": "pmt-hps-34-sw-25-04-wireless-temp.pdf",
+            "documentRevisionTitle": "2",
+            "documentRevisionDate": "2022-10-31T23:00:00.000Z",
+            "isLastVersion": true
+          },
+          "metadata": {
+            "source": "eqhub",
+            "createdAt": "2024-10-18T12:22:58.485Z",
+            "updatedAt": "2024-10-18T12:22:58.485Z",
+            "createdBy": {
+              "id": "cf3d85e3-ef07-4a07-a7a1-1b06dd61d5aa",
+              "companyId": 133
+            },
+            "updatedBy": {
+              "id": "cf3d85e3-ef07-4a07-a7a1-1b06dd61d5aa",
+              "companyId": 133
+            },
+            "createdById": "cf3d85e3-ef07-4a07-a7a1-1b06dd61d5aa",
+            "updatedById": "cf3d85e3-ef07-4a07-a7a1-1b06dd61d5aa",
+            "companyInfo": { "id": 133, "name": "ORIGO SOLUTIONS AS" }
+          },
+          "accessConfiguration": {
+            "accessType": "all",
+            "createdAt": "2024-10-18T12:22:58.485Z",
+            "createdBy": {
+              "id": "cf3d85e3-ef07-4a07-a7a1-1b06dd61d5aa",
+              "companyId": 133
+            },
+            "updatedBy": null,
+            "createdById": "cf3d85e3-ef07-4a07-a7a1-1b06dd61d5aa",
+            "whiteList": null
+          },
+          "status": "published",
+          "requirementsCategories": [
+            {
+              "requirementsDocumentCategoryId": "NOZTI_1",
+              "name": "Installation, operation and maintenance instructions",
+              "description": "The manufacturer's standard IOM should be used as far as possible.This document shall provide sufficient information to install, operate and maintain the equipment.This document shall also provide sufficient information for troubleshooting.",
+              "extendedStandard": "Z018",
+              "lifeCycleType": "EQLCT200001"
+            },
+            {
+              "requirementsDocumentCategoryId": "NOZTI_2",
+              "name": "Spare part list",
+              "description": "Mandatory content of information:- Item reference number- Quantity- Part number or global identifier (together with manufacturer / supplier)- Part name.Optional content of information:- Type designation- Specifying technical data- Descriptive technical data- Mass, dimensions- Reference to document- Remark.",
+              "extendedStandard": "Z018",
+              "lifeCycleType": "EQLCT200001"
+            },
+            {
+              "requirementsDocumentCategoryId": "NOZTI_15",
+              "name": "Data sheet",
+              "description": "This document provides structured data form containing part number/model, design information,operational data and limitations of the equipment. Document shall provide information on technical data and characteristics about material, products or systems and their environment for proper implementation.",
+              "extendedStandard": "Z018",
+              "lifeCycleType": "EQLCT200001"
+            },
+            {
+              "requirementsDocumentCategoryId": "NOZTI_17",
+              "name": "Detail cross sectional drawings with parts list",
+              "description": "A view or drawing that shows what the inside of equipment looks like after a cross-sectional cut has been made.The manufacturer's standard detail cross sectional drawing shall be delivered.Typical information may be:• Items list with reference to supplier’s part number.• Material definition with reference to relevant standards",
+              "extendedStandard": "Z018",
+              "lifeCycleType": "EQLCT200001"
+            },
+            {
+              "requirementsDocumentCategoryId": "NOZTI_27",
+              "name": "Packing, storage, preservation, lifting, transportation and handling procedure",
+              "description": "A compound document that may contain: • Packing lists• Instructions for transport• Handling• Lifting• Storage location and requirements• Preservation of the equipment during short- and long term storage• Maintenance intervals• Inspection intervals• Instructions for unpacking if applicable• Completed applicable forms for mechanical completion• Certificate of conformity, data sheets• Preservation log• Certificate for lifting equipment• Material certificates",
+              "extendedStandard": "Z018",
+              "lifeCycleType": "EQLCT200001"
+            },
+            {
+              "requirementsDocumentCategoryId": "NOZTI_123",
+              "name": "Termination and wiring diagram",
+              "description": "Document to identify terminals for external connection, including marking (if applicable) and signal/power description. Cable entry information may be included in this drawing or part of valve drawing. The supplier standard drawing to be delivered if existing.",
+              "extendedStandard": "Z018",
+              "lifeCycleType": "EQLCT200001"
+            },
+            {
+              "requirementsDocumentCategoryId": "EQHUB_1",
+              "name": "Product description and ordering information",
+              "extendedStandard": "EQHUB",
+              "lifeCycleType": "EQLCT200001"
+            },
+            {
+              "requirementsDocumentCategoryId": "NOZTI_16",
+              "name": "General Arrangement drawing",
+              "description": "The manufacturer's standard general arrangement should be used as far as possible.A drawing showing overall dimensions, critical interface dimensions, part references and weight of assemblies, equipment and components. The drawing shallcontain reference to main specifications and standards For equipment / components the drawing may include cross sectional views.Document may contain the following information:• Main dimensions• Interface connections• Weight• Centre of gravity• Withdrawal/installation and maintenance space.• Installation and mounting details• Lifting arrangement",
+              "extendedStandard": "Z018",
+              "lifeCycleType": "EQLCT200001"
+            }
+          ]
+        },
+        "absenceReasonComment": "",
+        "isRequired": true,
+        "metadata": {
+          "source": "eqhub",
+          "updatedAt": "2024-10-31T06:31:44.937Z",
+          "createdAt": "2024-10-24T07:53:01.668Z",
+          "createdBy": {
+            "id": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+            "companyId": 133
+          },
+          "updatedBy": {
+            "id": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+            "companyId": 133
+          },
+          "createdById": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+          "updatedById": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+          "companyInfo": { "id": 133, "name": "ORIGO SOLUTIONS AS" }
+        },
+        "historicalData": null,
+        "unlinkedDocumentData": null
+      },
+      {
+        "documentRequirement": {
+          "libraryVersion": "0.0.0.28",
+          "documentRequirementId": "NOZTI_3",
+          "discipline": "Product Typical",
+          "documentCategory": {
+            "requirementsDocumentCategoryId": "NOZTI_3",
+            "name": "EU declaration of conformity",
+            "description": "The EU Declaration of conformity shall be written up by the manufacturer of the equipment or component, as the legal binding document from the manufacturer to the purchaser / user ensuring conformity with the relevant EU directive(s). EU declaration of Conformity shall be delivered according to requirements of the relevant EU - directives with respect to conformity assessment procedures and eventual necessary involvements of Notified Bodies. Certificate(s) of conformance, required by relevant directive(s), shall be available.",
+            "extendedStandard": "Z018",
+            "lifeCycleType": "EQLCT200001"
+          },
+          "validationType": "Association",
+          "presence": "Required",
+          "reqType": "M",
+          "delivery": "DFO"
+        },
+        "documentRevision": {
+          "uuid": "1e847453-3cd5-43de-932a-b31182cb6f88",
+          "data": {
+            "fileHash": "71efc0f1e80e1af603948ae5a743e7a7",
+            "manufacturerId": "1000079",
+            "manufacturerName": "Honeywell Industrial Automation",
+            "eqhubDocumentId": 100010546,
+            "eqhubDocumentVersion": 1,
+            "documentNumber": "50136122",
+            "documentTitle": "EU Declaration of Conformity",
+            "originalFileName": "STW-CE-50136122.pdf",
+            "documentRevisionTitle": "D",
+            "documentRevisionDate": "2019-10-24T22:00:00.000Z",
+            "isLastVersion": true
+          },
+          "metadata": {
+            "source": "eqhub",
+            "createdAt": "2024-10-22T11:21:18.963Z",
+            "updatedAt": "2024-10-22T11:21:18.963Z",
+            "createdBy": {
+              "id": "cf3d85e3-ef07-4a07-a7a1-1b06dd61d5aa",
+              "companyId": 133
+            },
+            "updatedBy": {
+              "id": "cf3d85e3-ef07-4a07-a7a1-1b06dd61d5aa",
+              "companyId": 133
+            },
+            "createdById": "cf3d85e3-ef07-4a07-a7a1-1b06dd61d5aa",
+            "updatedById": "cf3d85e3-ef07-4a07-a7a1-1b06dd61d5aa",
+            "companyInfo": { "id": 133, "name": "ORIGO SOLUTIONS AS" }
+          },
+          "accessConfiguration": {
+            "accessType": "all",
+            "createdAt": "2024-10-22T11:21:18.963Z",
+            "createdBy": {
+              "id": "cf3d85e3-ef07-4a07-a7a1-1b06dd61d5aa",
+              "companyId": 133
+            },
+            "updatedBy": null,
+            "createdById": "cf3d85e3-ef07-4a07-a7a1-1b06dd61d5aa",
+            "whiteList": null
+          },
+          "status": "published",
+          "requirementsCategories": [
+            {
+              "requirementsDocumentCategoryId": "NOZTI_3",
+              "name": "EU declaration of conformity",
+              "description": "The EU Declaration of conformity shall be written up by the manufacturer of the equipment or component, as the legal binding document from the manufacturer to the purchaser / user ensuring conformity with the relevant EU directive(s). EU declaration of Conformity shall be delivered according to requirements of the relevant EU - directives with respect to conformity assessment procedures and eventual necessary involvements of Notified Bodies. Certificate(s) of conformance, required by relevant directive(s), shall be available.",
+              "extendedStandard": "Z018",
+              "lifeCycleType": "EQLCT200001"
+            }
+          ]
+        },
+        "absenceReasonComment": "",
+        "isRequired": true,
+        "metadata": {
+          "source": "eqhub",
+          "updatedAt": "2024-10-31T06:31:44.940Z",
+          "createdAt": "2024-10-24T07:53:01.670Z",
+          "createdBy": {
+            "id": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+            "companyId": 133
+          },
+          "updatedBy": {
+            "id": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+            "companyId": 133
+          },
+          "createdById": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+          "updatedById": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+          "companyInfo": { "id": 133, "name": "ORIGO SOLUTIONS AS" }
+        },
+        "historicalData": null,
+        "unlinkedDocumentData": null
+      },
+      {
+        "documentRequirement": {
+          "libraryVersion": "0.0.0.28",
+          "documentRequirementId": "NOZTI_10",
+          "discipline": "Product Typical",
+          "documentCategory": {
+            "requirementsDocumentCategoryId": "NOZTI_10",
+            "name": "EX certificate",
+            "description": "The equipment’s explosion protection certificate shall be delivered according to recognized standards.This certificate proves that equipment conforms to the specific standard for the type of explosion protection, e.g. ATEX, IECThis document shall provide input to IS-calculations, special requirements for safe use, barrier/isolator to be used, etc.",
+            "extendedStandard": "Z018",
+            "lifeCycleType": "EQLCT200001"
+          },
+          "validationType": "Association",
+          "presence": "Preferred",
+          "requirementCondition": "{geicl:notderivable}To be provided if ordered as EX certified",
+          "reqType": "C",
+          "reqDetails": "Always to be delivered If equipment is certified for use in hazardous area",
+          "delivery": "DFO"
+        },
+        "documentRevision": {
+          "uuid": "35078ebc-b1ce-4bf4-8706-2365c0d17c3a",
+          "data": {
+            "fileHash": "5e74f3db81292887fe06fbf59fe63523",
+            "manufacturerId": "1000079",
+            "manufacturerName": "Honeywell Industrial Automation",
+            "eqhubDocumentId": 100010417,
+            "eqhubDocumentVersion": 1,
+            "documentNumber": "DQD 544.09",
+            "documentTitle": "EU-TYPE EXAMINATION CERTIFICATE",
+            "originalFileName": "STW-ATEX-Sira 18ATEX2257X.pdf",
+            "documentRevisionTitle": "3",
+            "documentRevisionDate": "2018-04-19T22:00:00.000Z",
+            "isLastVersion": true
+          },
+          "metadata": {
+            "source": "eqhub",
+            "createdAt": "2024-10-18T12:26:10.528Z",
+            "updatedAt": "2024-10-18T12:26:10.528Z",
+            "createdBy": {
+              "id": "cf3d85e3-ef07-4a07-a7a1-1b06dd61d5aa",
+              "companyId": 133
+            },
+            "updatedBy": {
+              "id": "cf3d85e3-ef07-4a07-a7a1-1b06dd61d5aa",
+              "companyId": 133
+            },
+            "createdById": "cf3d85e3-ef07-4a07-a7a1-1b06dd61d5aa",
+            "updatedById": "cf3d85e3-ef07-4a07-a7a1-1b06dd61d5aa",
+            "companyInfo": { "id": 133, "name": "ORIGO SOLUTIONS AS" }
+          },
+          "accessConfiguration": {
+            "accessType": "all",
+            "createdAt": "2024-10-18T12:26:10.528Z",
+            "createdBy": {
+              "id": "cf3d85e3-ef07-4a07-a7a1-1b06dd61d5aa",
+              "companyId": 133
+            },
+            "updatedBy": null,
+            "createdById": "cf3d85e3-ef07-4a07-a7a1-1b06dd61d5aa",
+            "whiteList": null
+          },
+          "status": "published",
+          "requirementsCategories": [
+            {
+              "requirementsDocumentCategoryId": "NOZTI_10",
+              "name": "EX certificate",
+              "description": "The equipment’s explosion protection certificate shall be delivered according to recognized standards.This certificate proves that equipment conforms to the specific standard for the type of explosion protection, e.g. ATEX, IECThis document shall provide input to IS-calculations, special requirements for safe use, barrier/isolator to be used, etc.",
+              "extendedStandard": "Z018",
+              "lifeCycleType": "EQLCT200001"
+            }
+          ]
+        },
+        "absenceReasonComment": "",
+        "isRequired": true,
+        "metadata": {
+          "source": "eqhub",
+          "updatedAt": "2024-10-31T06:31:44.942Z",
+          "createdAt": "2024-10-24T07:53:01.671Z",
+          "createdBy": {
+            "id": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+            "companyId": 133
+          },
+          "updatedBy": {
+            "id": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+            "companyId": 133
+          },
+          "createdById": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+          "updatedById": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+          "companyInfo": { "id": 133, "name": "ORIGO SOLUTIONS AS" }
+        },
+        "historicalData": null,
+        "unlinkedDocumentData": null
+      },
+      {
+        "documentRequirement": {
+          "libraryVersion": "0.0.0.28",
+          "documentRequirementId": "NOZTI_15",
+          "discipline": "Product Typical",
+          "documentCategory": {
+            "requirementsDocumentCategoryId": "NOZTI_15",
+            "name": "Data sheet",
+            "description": "This document provides structured data form containing part number/model, design information,operational data and limitations of the equipment. Document shall provide information on technical data and characteristics about material, products or systems and their environment for proper implementation.",
+            "extendedStandard": "Z018",
+            "lifeCycleType": "EQLCT200001"
+          },
+          "validationType": "Association",
+          "presence": "Required",
+          "reqType": "M",
+          "reqDetails": "Standard product data sheet to be delivered. NORSOK datasheets may be used for product individual use.",
+          "delivery": "DFO"
+        },
+        "documentRevision": {
+          "uuid": "0b441476-dd0a-489a-b5cf-10c785fa2eda",
+          "data": {
+            "fileHash": "84d5b4ab4f33aeb93714eaf7b00f462a",
+            "manufacturerId": "1000079",
+            "manufacturerName": "Honeywell Industrial Automation",
+            "eqhubDocumentId": 100010415,
+            "eqhubDocumentVersion": 1,
+            "documentNumber": "34-SW-25-04",
+            "documentTitle": "SmartLine Wireless Temperature and Universal I/O Transmitters User’s manual",
+            "originalFileName": "pmt-hps-34-sw-25-04-wireless-temp.pdf",
+            "documentRevisionTitle": "2",
+            "documentRevisionDate": "2022-10-31T23:00:00.000Z",
+            "isLastVersion": true
+          },
+          "metadata": {
+            "source": "eqhub",
+            "createdAt": "2024-10-18T12:22:58.485Z",
+            "updatedAt": "2024-10-18T12:22:58.485Z",
+            "createdBy": {
+              "id": "cf3d85e3-ef07-4a07-a7a1-1b06dd61d5aa",
+              "companyId": 133
+            },
+            "updatedBy": {
+              "id": "cf3d85e3-ef07-4a07-a7a1-1b06dd61d5aa",
+              "companyId": 133
+            },
+            "createdById": "cf3d85e3-ef07-4a07-a7a1-1b06dd61d5aa",
+            "updatedById": "cf3d85e3-ef07-4a07-a7a1-1b06dd61d5aa",
+            "companyInfo": { "id": 133, "name": "ORIGO SOLUTIONS AS" }
+          },
+          "accessConfiguration": {
+            "accessType": "all",
+            "createdAt": "2024-10-18T12:22:58.485Z",
+            "createdBy": {
+              "id": "cf3d85e3-ef07-4a07-a7a1-1b06dd61d5aa",
+              "companyId": 133
+            },
+            "updatedBy": null,
+            "createdById": "cf3d85e3-ef07-4a07-a7a1-1b06dd61d5aa",
+            "whiteList": null
+          },
+          "status": "published",
+          "requirementsCategories": [
+            {
+              "requirementsDocumentCategoryId": "NOZTI_1",
+              "name": "Installation, operation and maintenance instructions",
+              "description": "The manufacturer's standard IOM should be used as far as possible.This document shall provide sufficient information to install, operate and maintain the equipment.This document shall also provide sufficient information for troubleshooting.",
+              "extendedStandard": "Z018",
+              "lifeCycleType": "EQLCT200001"
+            },
+            {
+              "requirementsDocumentCategoryId": "NOZTI_2",
+              "name": "Spare part list",
+              "description": "Mandatory content of information:- Item reference number- Quantity- Part number or global identifier (together with manufacturer / supplier)- Part name.Optional content of information:- Type designation- Specifying technical data- Descriptive technical data- Mass, dimensions- Reference to document- Remark.",
+              "extendedStandard": "Z018",
+              "lifeCycleType": "EQLCT200001"
+            },
+            {
+              "requirementsDocumentCategoryId": "NOZTI_15",
+              "name": "Data sheet",
+              "description": "This document provides structured data form containing part number/model, design information,operational data and limitations of the equipment. Document shall provide information on technical data and characteristics about material, products or systems and their environment for proper implementation.",
+              "extendedStandard": "Z018",
+              "lifeCycleType": "EQLCT200001"
+            },
+            {
+              "requirementsDocumentCategoryId": "NOZTI_17",
+              "name": "Detail cross sectional drawings with parts list",
+              "description": "A view or drawing that shows what the inside of equipment looks like after a cross-sectional cut has been made.The manufacturer's standard detail cross sectional drawing shall be delivered.Typical information may be:• Items list with reference to supplier’s part number.• Material definition with reference to relevant standards",
+              "extendedStandard": "Z018",
+              "lifeCycleType": "EQLCT200001"
+            },
+            {
+              "requirementsDocumentCategoryId": "NOZTI_27",
+              "name": "Packing, storage, preservation, lifting, transportation and handling procedure",
+              "description": "A compound document that may contain: • Packing lists• Instructions for transport• Handling• Lifting• Storage location and requirements• Preservation of the equipment during short- and long term storage• Maintenance intervals• Inspection intervals• Instructions for unpacking if applicable• Completed applicable forms for mechanical completion• Certificate of conformity, data sheets• Preservation log• Certificate for lifting equipment• Material certificates",
+              "extendedStandard": "Z018",
+              "lifeCycleType": "EQLCT200001"
+            },
+            {
+              "requirementsDocumentCategoryId": "NOZTI_123",
+              "name": "Termination and wiring diagram",
+              "description": "Document to identify terminals for external connection, including marking (if applicable) and signal/power description. Cable entry information may be included in this drawing or part of valve drawing. The supplier standard drawing to be delivered if existing.",
+              "extendedStandard": "Z018",
+              "lifeCycleType": "EQLCT200001"
+            },
+            {
+              "requirementsDocumentCategoryId": "EQHUB_1",
+              "name": "Product description and ordering information",
+              "extendedStandard": "EQHUB",
+              "lifeCycleType": "EQLCT200001"
+            },
+            {
+              "requirementsDocumentCategoryId": "NOZTI_16",
+              "name": "General Arrangement drawing",
+              "description": "The manufacturer's standard general arrangement should be used as far as possible.A drawing showing overall dimensions, critical interface dimensions, part references and weight of assemblies, equipment and components. The drawing shallcontain reference to main specifications and standards For equipment / components the drawing may include cross sectional views.Document may contain the following information:• Main dimensions• Interface connections• Weight• Centre of gravity• Withdrawal/installation and maintenance space.• Installation and mounting details• Lifting arrangement",
+              "extendedStandard": "Z018",
+              "lifeCycleType": "EQLCT200001"
+            }
+          ]
+        },
+        "absenceReasonComment": "",
+        "isRequired": true,
+        "metadata": {
+          "source": "eqhub",
+          "updatedAt": "2024-10-31T06:31:44.944Z",
+          "createdAt": "2024-10-24T07:53:01.677Z",
+          "createdBy": {
+            "id": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+            "companyId": 133
+          },
+          "updatedBy": {
+            "id": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+            "companyId": 133
+          },
+          "createdById": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+          "updatedById": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+          "companyInfo": { "id": 133, "name": "ORIGO SOLUTIONS AS" }
+        },
+        "historicalData": null,
+        "unlinkedDocumentData": null
+      },
+      {
+        "documentRequirement": {
+          "libraryVersion": "0.0.0.28",
+          "documentRequirementId": "NOZTI_17",
+          "discipline": "Product Typical",
+          "documentCategory": {
+            "requirementsDocumentCategoryId": "NOZTI_17",
+            "name": "Detail cross sectional drawings with parts list",
+            "description": "A view or drawing that shows what the inside of equipment looks like after a cross-sectional cut has been made.The manufacturer's standard detail cross sectional drawing shall be delivered.Typical information may be:• Items list with reference to supplier’s part number.• Material definition with reference to relevant standards",
+            "extendedStandard": "Z018",
+            "lifeCycleType": "EQLCT200001"
+          },
+          "validationType": "Association",
+          "presence": "Required",
+          "reqType": "M",
+          "reqDetails": "General Arrangement Drawing and Detail Cross Sectional Drawing with Parts List may be combined as one document",
+          "delivery": "DFO"
+        },
+        "documentRevision": {
+          "uuid": "0b441476-dd0a-489a-b5cf-10c785fa2eda",
+          "data": {
+            "fileHash": "84d5b4ab4f33aeb93714eaf7b00f462a",
+            "manufacturerId": "1000079",
+            "manufacturerName": "Honeywell Industrial Automation",
+            "eqhubDocumentId": 100010415,
+            "eqhubDocumentVersion": 1,
+            "documentNumber": "34-SW-25-04",
+            "documentTitle": "SmartLine Wireless Temperature and Universal I/O Transmitters User’s manual",
+            "originalFileName": "pmt-hps-34-sw-25-04-wireless-temp.pdf",
+            "documentRevisionTitle": "2",
+            "documentRevisionDate": "2022-10-31T23:00:00.000Z",
+            "isLastVersion": true
+          },
+          "metadata": {
+            "source": "eqhub",
+            "createdAt": "2024-10-18T12:22:58.485Z",
+            "updatedAt": "2024-10-18T12:22:58.485Z",
+            "createdBy": {
+              "id": "cf3d85e3-ef07-4a07-a7a1-1b06dd61d5aa",
+              "companyId": 133
+            },
+            "updatedBy": {
+              "id": "cf3d85e3-ef07-4a07-a7a1-1b06dd61d5aa",
+              "companyId": 133
+            },
+            "createdById": "cf3d85e3-ef07-4a07-a7a1-1b06dd61d5aa",
+            "updatedById": "cf3d85e3-ef07-4a07-a7a1-1b06dd61d5aa",
+            "companyInfo": { "id": 133, "name": "ORIGO SOLUTIONS AS" }
+          },
+          "accessConfiguration": {
+            "accessType": "all",
+            "createdAt": "2024-10-18T12:22:58.485Z",
+            "createdBy": {
+              "id": "cf3d85e3-ef07-4a07-a7a1-1b06dd61d5aa",
+              "companyId": 133
+            },
+            "updatedBy": null,
+            "createdById": "cf3d85e3-ef07-4a07-a7a1-1b06dd61d5aa",
+            "whiteList": null
+          },
+          "status": "published",
+          "requirementsCategories": [
+            {
+              "requirementsDocumentCategoryId": "NOZTI_1",
+              "name": "Installation, operation and maintenance instructions",
+              "description": "The manufacturer's standard IOM should be used as far as possible.This document shall provide sufficient information to install, operate and maintain the equipment.This document shall also provide sufficient information for troubleshooting.",
+              "extendedStandard": "Z018",
+              "lifeCycleType": "EQLCT200001"
+            },
+            {
+              "requirementsDocumentCategoryId": "NOZTI_2",
+              "name": "Spare part list",
+              "description": "Mandatory content of information:- Item reference number- Quantity- Part number or global identifier (together with manufacturer / supplier)- Part name.Optional content of information:- Type designation- Specifying technical data- Descriptive technical data- Mass, dimensions- Reference to document- Remark.",
+              "extendedStandard": "Z018",
+              "lifeCycleType": "EQLCT200001"
+            },
+            {
+              "requirementsDocumentCategoryId": "NOZTI_15",
+              "name": "Data sheet",
+              "description": "This document provides structured data form containing part number/model, design information,operational data and limitations of the equipment. Document shall provide information on technical data and characteristics about material, products or systems and their environment for proper implementation.",
+              "extendedStandard": "Z018",
+              "lifeCycleType": "EQLCT200001"
+            },
+            {
+              "requirementsDocumentCategoryId": "NOZTI_17",
+              "name": "Detail cross sectional drawings with parts list",
+              "description": "A view or drawing that shows what the inside of equipment looks like after a cross-sectional cut has been made.The manufacturer's standard detail cross sectional drawing shall be delivered.Typical information may be:• Items list with reference to supplier’s part number.• Material definition with reference to relevant standards",
+              "extendedStandard": "Z018",
+              "lifeCycleType": "EQLCT200001"
+            },
+            {
+              "requirementsDocumentCategoryId": "NOZTI_27",
+              "name": "Packing, storage, preservation, lifting, transportation and handling procedure",
+              "description": "A compound document that may contain: • Packing lists• Instructions for transport• Handling• Lifting• Storage location and requirements• Preservation of the equipment during short- and long term storage• Maintenance intervals• Inspection intervals• Instructions for unpacking if applicable• Completed applicable forms for mechanical completion• Certificate of conformity, data sheets• Preservation log• Certificate for lifting equipment• Material certificates",
+              "extendedStandard": "Z018",
+              "lifeCycleType": "EQLCT200001"
+            },
+            {
+              "requirementsDocumentCategoryId": "NOZTI_123",
+              "name": "Termination and wiring diagram",
+              "description": "Document to identify terminals for external connection, including marking (if applicable) and signal/power description. Cable entry information may be included in this drawing or part of valve drawing. The supplier standard drawing to be delivered if existing.",
+              "extendedStandard": "Z018",
+              "lifeCycleType": "EQLCT200001"
+            },
+            {
+              "requirementsDocumentCategoryId": "EQHUB_1",
+              "name": "Product description and ordering information",
+              "extendedStandard": "EQHUB",
+              "lifeCycleType": "EQLCT200001"
+            },
+            {
+              "requirementsDocumentCategoryId": "NOZTI_16",
+              "name": "General Arrangement drawing",
+              "description": "The manufacturer's standard general arrangement should be used as far as possible.A drawing showing overall dimensions, critical interface dimensions, part references and weight of assemblies, equipment and components. The drawing shallcontain reference to main specifications and standards For equipment / components the drawing may include cross sectional views.Document may contain the following information:• Main dimensions• Interface connections• Weight• Centre of gravity• Withdrawal/installation and maintenance space.• Installation and mounting details• Lifting arrangement",
+              "extendedStandard": "Z018",
+              "lifeCycleType": "EQLCT200001"
+            }
+          ]
+        },
+        "absenceReasonComment": "",
+        "isRequired": true,
+        "metadata": {
+          "source": "eqhub",
+          "updatedAt": "2024-10-31T06:31:44.946Z",
+          "createdAt": "2024-10-24T07:53:01.681Z",
+          "createdBy": {
+            "id": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+            "companyId": 133
+          },
+          "updatedBy": {
+            "id": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+            "companyId": 133
+          },
+          "createdById": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+          "updatedById": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+          "companyInfo": { "id": 133, "name": "ORIGO SOLUTIONS AS" }
+        },
+        "historicalData": null,
+        "unlinkedDocumentData": null
+      },
+      {
+        "documentRequirement": {
+          "libraryVersion": "0.0.0.28",
+          "documentRequirementId": "NOZTI_27",
+          "discipline": "Product Typical",
+          "documentCategory": {
+            "requirementsDocumentCategoryId": "NOZTI_27",
+            "name": "Packing, storage, preservation, lifting, transportation and handling procedure",
+            "description": "A compound document that may contain: • Packing lists• Instructions for transport• Handling• Lifting• Storage location and requirements• Preservation of the equipment during short- and long term storage• Maintenance intervals• Inspection intervals• Instructions for unpacking if applicable• Completed applicable forms for mechanical completion• Certificate of conformity, data sheets• Preservation log• Certificate for lifting equipment• Material certificates",
+            "extendedStandard": "Z018",
+            "lifeCycleType": "EQLCT200001"
+          },
+          "validationType": "Association",
+          "presence": "Required",
+          "reqType": "M",
+          "reqDetails": "Can be part of IOM.",
+          "delivery": "DFO"
+        },
+        "documentRevision": {
+          "uuid": "0b441476-dd0a-489a-b5cf-10c785fa2eda",
+          "data": {
+            "fileHash": "84d5b4ab4f33aeb93714eaf7b00f462a",
+            "manufacturerId": "1000079",
+            "manufacturerName": "Honeywell Industrial Automation",
+            "eqhubDocumentId": 100010415,
+            "eqhubDocumentVersion": 1,
+            "documentNumber": "34-SW-25-04",
+            "documentTitle": "SmartLine Wireless Temperature and Universal I/O Transmitters User’s manual",
+            "originalFileName": "pmt-hps-34-sw-25-04-wireless-temp.pdf",
+            "documentRevisionTitle": "2",
+            "documentRevisionDate": "2022-10-31T23:00:00.000Z",
+            "isLastVersion": true
+          },
+          "metadata": {
+            "source": "eqhub",
+            "createdAt": "2024-10-18T12:22:58.485Z",
+            "updatedAt": "2024-10-18T12:22:58.485Z",
+            "createdBy": {
+              "id": "cf3d85e3-ef07-4a07-a7a1-1b06dd61d5aa",
+              "companyId": 133
+            },
+            "updatedBy": {
+              "id": "cf3d85e3-ef07-4a07-a7a1-1b06dd61d5aa",
+              "companyId": 133
+            },
+            "createdById": "cf3d85e3-ef07-4a07-a7a1-1b06dd61d5aa",
+            "updatedById": "cf3d85e3-ef07-4a07-a7a1-1b06dd61d5aa",
+            "companyInfo": { "id": 133, "name": "ORIGO SOLUTIONS AS" }
+          },
+          "accessConfiguration": {
+            "accessType": "all",
+            "createdAt": "2024-10-18T12:22:58.485Z",
+            "createdBy": {
+              "id": "cf3d85e3-ef07-4a07-a7a1-1b06dd61d5aa",
+              "companyId": 133
+            },
+            "updatedBy": null,
+            "createdById": "cf3d85e3-ef07-4a07-a7a1-1b06dd61d5aa",
+            "whiteList": null
+          },
+          "status": "published",
+          "requirementsCategories": [
+            {
+              "requirementsDocumentCategoryId": "NOZTI_1",
+              "name": "Installation, operation and maintenance instructions",
+              "description": "The manufacturer's standard IOM should be used as far as possible.This document shall provide sufficient information to install, operate and maintain the equipment.This document shall also provide sufficient information for troubleshooting.",
+              "extendedStandard": "Z018",
+              "lifeCycleType": "EQLCT200001"
+            },
+            {
+              "requirementsDocumentCategoryId": "NOZTI_2",
+              "name": "Spare part list",
+              "description": "Mandatory content of information:- Item reference number- Quantity- Part number or global identifier (together with manufacturer / supplier)- Part name.Optional content of information:- Type designation- Specifying technical data- Descriptive technical data- Mass, dimensions- Reference to document- Remark.",
+              "extendedStandard": "Z018",
+              "lifeCycleType": "EQLCT200001"
+            },
+            {
+              "requirementsDocumentCategoryId": "NOZTI_15",
+              "name": "Data sheet",
+              "description": "This document provides structured data form containing part number/model, design information,operational data and limitations of the equipment. Document shall provide information on technical data and characteristics about material, products or systems and their environment for proper implementation.",
+              "extendedStandard": "Z018",
+              "lifeCycleType": "EQLCT200001"
+            },
+            {
+              "requirementsDocumentCategoryId": "NOZTI_17",
+              "name": "Detail cross sectional drawings with parts list",
+              "description": "A view or drawing that shows what the inside of equipment looks like after a cross-sectional cut has been made.The manufacturer's standard detail cross sectional drawing shall be delivered.Typical information may be:• Items list with reference to supplier’s part number.• Material definition with reference to relevant standards",
+              "extendedStandard": "Z018",
+              "lifeCycleType": "EQLCT200001"
+            },
+            {
+              "requirementsDocumentCategoryId": "NOZTI_27",
+              "name": "Packing, storage, preservation, lifting, transportation and handling procedure",
+              "description": "A compound document that may contain: • Packing lists• Instructions for transport• Handling• Lifting• Storage location and requirements• Preservation of the equipment during short- and long term storage• Maintenance intervals• Inspection intervals• Instructions for unpacking if applicable• Completed applicable forms for mechanical completion• Certificate of conformity, data sheets• Preservation log• Certificate for lifting equipment• Material certificates",
+              "extendedStandard": "Z018",
+              "lifeCycleType": "EQLCT200001"
+            },
+            {
+              "requirementsDocumentCategoryId": "NOZTI_123",
+              "name": "Termination and wiring diagram",
+              "description": "Document to identify terminals for external connection, including marking (if applicable) and signal/power description. Cable entry information may be included in this drawing or part of valve drawing. The supplier standard drawing to be delivered if existing.",
+              "extendedStandard": "Z018",
+              "lifeCycleType": "EQLCT200001"
+            },
+            {
+              "requirementsDocumentCategoryId": "EQHUB_1",
+              "name": "Product description and ordering information",
+              "extendedStandard": "EQHUB",
+              "lifeCycleType": "EQLCT200001"
+            },
+            {
+              "requirementsDocumentCategoryId": "NOZTI_16",
+              "name": "General Arrangement drawing",
+              "description": "The manufacturer's standard general arrangement should be used as far as possible.A drawing showing overall dimensions, critical interface dimensions, part references and weight of assemblies, equipment and components. The drawing shallcontain reference to main specifications and standards For equipment / components the drawing may include cross sectional views.Document may contain the following information:• Main dimensions• Interface connections• Weight• Centre of gravity• Withdrawal/installation and maintenance space.• Installation and mounting details• Lifting arrangement",
+              "extendedStandard": "Z018",
+              "lifeCycleType": "EQLCT200001"
+            }
+          ]
+        },
+        "absenceReasonComment": "",
+        "isRequired": true,
+        "metadata": {
+          "source": "eqhub",
+          "updatedAt": "2024-10-31T06:31:44.948Z",
+          "createdAt": "2024-10-24T07:53:01.683Z",
+          "createdBy": {
+            "id": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+            "companyId": 133
+          },
+          "updatedBy": {
+            "id": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+            "companyId": 133
+          },
+          "createdById": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+          "updatedById": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+          "companyInfo": { "id": 133, "name": "ORIGO SOLUTIONS AS" }
+        },
+        "historicalData": null,
+        "unlinkedDocumentData": null
+      },
+      {
+        "documentRequirement": {
+          "libraryVersion": "0.0.0.28",
+          "documentRequirementId": "NOZTI_123",
+          "discipline": "Product Typical",
+          "documentCategory": {
+            "requirementsDocumentCategoryId": "NOZTI_123",
+            "name": "Termination and wiring diagram",
+            "description": "Document to identify terminals for external connection, including marking (if applicable) and signal/power description. Cable entry information may be included in this drawing or part of valve drawing. The supplier standard drawing to be delivered if existing.",
+            "extendedStandard": "Z018",
+            "lifeCycleType": "EQLCT200001"
+          },
+          "validationType": "Association",
+          "presence": "Required",
+          "reqType": "M",
+          "delivery": "DFO"
+        },
+        "documentRevision": {
+          "uuid": "0b441476-dd0a-489a-b5cf-10c785fa2eda",
+          "data": {
+            "fileHash": "84d5b4ab4f33aeb93714eaf7b00f462a",
+            "manufacturerId": "1000079",
+            "manufacturerName": "Honeywell Industrial Automation",
+            "eqhubDocumentId": 100010415,
+            "eqhubDocumentVersion": 1,
+            "documentNumber": "34-SW-25-04",
+            "documentTitle": "SmartLine Wireless Temperature and Universal I/O Transmitters User’s manual",
+            "originalFileName": "pmt-hps-34-sw-25-04-wireless-temp.pdf",
+            "documentRevisionTitle": "2",
+            "documentRevisionDate": "2022-10-31T23:00:00.000Z",
+            "isLastVersion": true
+          },
+          "metadata": {
+            "source": "eqhub",
+            "createdAt": "2024-10-18T12:22:58.485Z",
+            "updatedAt": "2024-10-18T12:22:58.485Z",
+            "createdBy": {
+              "id": "cf3d85e3-ef07-4a07-a7a1-1b06dd61d5aa",
+              "companyId": 133
+            },
+            "updatedBy": {
+              "id": "cf3d85e3-ef07-4a07-a7a1-1b06dd61d5aa",
+              "companyId": 133
+            },
+            "createdById": "cf3d85e3-ef07-4a07-a7a1-1b06dd61d5aa",
+            "updatedById": "cf3d85e3-ef07-4a07-a7a1-1b06dd61d5aa",
+            "companyInfo": { "id": 133, "name": "ORIGO SOLUTIONS AS" }
+          },
+          "accessConfiguration": {
+            "accessType": "all",
+            "createdAt": "2024-10-18T12:22:58.485Z",
+            "createdBy": {
+              "id": "cf3d85e3-ef07-4a07-a7a1-1b06dd61d5aa",
+              "companyId": 133
+            },
+            "updatedBy": null,
+            "createdById": "cf3d85e3-ef07-4a07-a7a1-1b06dd61d5aa",
+            "whiteList": null
+          },
+          "status": "published",
+          "requirementsCategories": [
+            {
+              "requirementsDocumentCategoryId": "NOZTI_1",
+              "name": "Installation, operation and maintenance instructions",
+              "description": "The manufacturer's standard IOM should be used as far as possible.This document shall provide sufficient information to install, operate and maintain the equipment.This document shall also provide sufficient information for troubleshooting.",
+              "extendedStandard": "Z018",
+              "lifeCycleType": "EQLCT200001"
+            },
+            {
+              "requirementsDocumentCategoryId": "NOZTI_2",
+              "name": "Spare part list",
+              "description": "Mandatory content of information:- Item reference number- Quantity- Part number or global identifier (together with manufacturer / supplier)- Part name.Optional content of information:- Type designation- Specifying technical data- Descriptive technical data- Mass, dimensions- Reference to document- Remark.",
+              "extendedStandard": "Z018",
+              "lifeCycleType": "EQLCT200001"
+            },
+            {
+              "requirementsDocumentCategoryId": "NOZTI_15",
+              "name": "Data sheet",
+              "description": "This document provides structured data form containing part number/model, design information,operational data and limitations of the equipment. Document shall provide information on technical data and characteristics about material, products or systems and their environment for proper implementation.",
+              "extendedStandard": "Z018",
+              "lifeCycleType": "EQLCT200001"
+            },
+            {
+              "requirementsDocumentCategoryId": "NOZTI_17",
+              "name": "Detail cross sectional drawings with parts list",
+              "description": "A view or drawing that shows what the inside of equipment looks like after a cross-sectional cut has been made.The manufacturer's standard detail cross sectional drawing shall be delivered.Typical information may be:• Items list with reference to supplier’s part number.• Material definition with reference to relevant standards",
+              "extendedStandard": "Z018",
+              "lifeCycleType": "EQLCT200001"
+            },
+            {
+              "requirementsDocumentCategoryId": "NOZTI_27",
+              "name": "Packing, storage, preservation, lifting, transportation and handling procedure",
+              "description": "A compound document that may contain: • Packing lists• Instructions for transport• Handling• Lifting• Storage location and requirements• Preservation of the equipment during short- and long term storage• Maintenance intervals• Inspection intervals• Instructions for unpacking if applicable• Completed applicable forms for mechanical completion• Certificate of conformity, data sheets• Preservation log• Certificate for lifting equipment• Material certificates",
+              "extendedStandard": "Z018",
+              "lifeCycleType": "EQLCT200001"
+            },
+            {
+              "requirementsDocumentCategoryId": "NOZTI_123",
+              "name": "Termination and wiring diagram",
+              "description": "Document to identify terminals for external connection, including marking (if applicable) and signal/power description. Cable entry information may be included in this drawing or part of valve drawing. The supplier standard drawing to be delivered if existing.",
+              "extendedStandard": "Z018",
+              "lifeCycleType": "EQLCT200001"
+            },
+            {
+              "requirementsDocumentCategoryId": "EQHUB_1",
+              "name": "Product description and ordering information",
+              "extendedStandard": "EQHUB",
+              "lifeCycleType": "EQLCT200001"
+            },
+            {
+              "requirementsDocumentCategoryId": "NOZTI_16",
+              "name": "General Arrangement drawing",
+              "description": "The manufacturer's standard general arrangement should be used as far as possible.A drawing showing overall dimensions, critical interface dimensions, part references and weight of assemblies, equipment and components. The drawing shallcontain reference to main specifications and standards For equipment / components the drawing may include cross sectional views.Document may contain the following information:• Main dimensions• Interface connections• Weight• Centre of gravity• Withdrawal/installation and maintenance space.• Installation and mounting details• Lifting arrangement",
+              "extendedStandard": "Z018",
+              "lifeCycleType": "EQLCT200001"
+            }
+          ]
+        },
+        "absenceReasonComment": "",
+        "isRequired": true,
+        "metadata": {
+          "source": "eqhub",
+          "updatedAt": "2024-10-31T06:31:44.950Z",
+          "createdAt": "2024-10-24T07:53:01.685Z",
+          "createdBy": {
+            "id": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+            "companyId": 133
+          },
+          "updatedBy": {
+            "id": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+            "companyId": 133
+          },
+          "createdById": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+          "updatedById": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+          "companyInfo": { "id": 133, "name": "ORIGO SOLUTIONS AS" }
+        },
+        "historicalData": null,
+        "unlinkedDocumentData": null
+      },
+      {
+        "documentRequirement": {
+          "libraryVersion": "0.0.0.28",
+          "documentRequirementId": "EQHUB_1",
+          "discipline": "Product Typical",
+          "documentCategory": {
+            "requirementsDocumentCategoryId": "EQHUB_1",
+            "name": "Product description and ordering information",
+            "extendedStandard": "EQHUB",
+            "lifeCycleType": "EQLCT200001"
+          },
+          "validationType": "Association",
+          "presence": "Required",
+          "reqType": "M"
+        },
+        "documentRevision": {
+          "uuid": "211e7a0b-a337-4db4-8973-1e81c4fd49ea",
+          "data": {
+            "fileHash": "ca43102fc23f92c70d7ef92126335faf",
+            "manufacturerId": "1000079",
+            "manufacturerName": "Honeywell Industrial Automation",
+            "eqhubDocumentId": 100010414,
+            "eqhubDocumentVersion": 1,
+            "documentNumber": "34-SW-03-11",
+            "documentTitle": "Technical Information",
+            "originalFileName": "pmt-hps-smartline-wireless-stiw.pdf",
+            "documentRevisionDate": "2022-03-31T22:00:00.000Z",
+            "isLastVersion": true
+          },
+          "metadata": {
+            "source": "eqhub",
+            "createdAt": "2024-10-18T12:20:31.557Z",
+            "updatedAt": "2024-10-18T12:20:31.557Z",
+            "createdBy": {
+              "id": "cf3d85e3-ef07-4a07-a7a1-1b06dd61d5aa",
+              "companyId": 133
+            },
+            "updatedBy": {
+              "id": "cf3d85e3-ef07-4a07-a7a1-1b06dd61d5aa",
+              "companyId": 133
+            },
+            "createdById": "cf3d85e3-ef07-4a07-a7a1-1b06dd61d5aa",
+            "updatedById": "cf3d85e3-ef07-4a07-a7a1-1b06dd61d5aa",
+            "companyInfo": { "id": 133, "name": "ORIGO SOLUTIONS AS" }
+          },
+          "accessConfiguration": {
+            "accessType": "all",
+            "createdAt": "2024-10-18T12:20:31.557Z",
+            "createdBy": {
+              "id": "cf3d85e3-ef07-4a07-a7a1-1b06dd61d5aa",
+              "companyId": 133
+            },
+            "updatedBy": null,
+            "createdById": "cf3d85e3-ef07-4a07-a7a1-1b06dd61d5aa",
+            "whiteList": null
+          },
+          "status": "published",
+          "requirementsCategories": [
+            {
+              "requirementsDocumentCategoryId": "NOZTI_2",
+              "name": "Spare part list",
+              "description": "Mandatory content of information:- Item reference number- Quantity- Part number or global identifier (together with manufacturer / supplier)- Part name.Optional content of information:- Type designation- Specifying technical data- Descriptive technical data- Mass, dimensions- Reference to document- Remark.",
+              "extendedStandard": "Z018",
+              "lifeCycleType": "EQLCT200001"
+            },
+            {
+              "requirementsDocumentCategoryId": "NOZTI_15",
+              "name": "Data sheet",
+              "description": "This document provides structured data form containing part number/model, design information,operational data and limitations of the equipment. Document shall provide information on technical data and characteristics about material, products or systems and their environment for proper implementation.",
+              "extendedStandard": "Z018",
+              "lifeCycleType": "EQLCT200001"
+            },
+            {
+              "requirementsDocumentCategoryId": "NOZTI_123",
+              "name": "Termination and wiring diagram",
+              "description": "Document to identify terminals for external connection, including marking (if applicable) and signal/power description. Cable entry information may be included in this drawing or part of valve drawing. The supplier standard drawing to be delivered if existing.",
+              "extendedStandard": "Z018",
+              "lifeCycleType": "EQLCT200001"
+            },
+            {
+              "requirementsDocumentCategoryId": "EQHUB_1",
+              "name": "Product description and ordering information",
+              "extendedStandard": "EQHUB",
+              "lifeCycleType": "EQLCT200001"
+            },
+            {
+              "requirementsDocumentCategoryId": "NOZTI_16",
+              "name": "General Arrangement drawing",
+              "description": "The manufacturer's standard general arrangement should be used as far as possible.A drawing showing overall dimensions, critical interface dimensions, part references and weight of assemblies, equipment and components. The drawing shallcontain reference to main specifications and standards For equipment / components the drawing may include cross sectional views.Document may contain the following information:• Main dimensions• Interface connections• Weight• Centre of gravity• Withdrawal/installation and maintenance space.• Installation and mounting details• Lifting arrangement",
+              "extendedStandard": "Z018",
+              "lifeCycleType": "EQLCT200001"
+            }
+          ]
+        },
+        "absenceReasonComment": "",
+        "isRequired": true,
+        "metadata": {
+          "source": "eqhub",
+          "updatedAt": "2024-10-31T06:31:44.952Z",
+          "createdAt": "2024-10-30T08:06:34.925Z",
+          "createdBy": {
+            "id": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+            "companyId": 133
+          },
+          "updatedBy": {
+            "id": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+            "companyId": 133
+          },
+          "createdById": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+          "updatedById": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+          "companyInfo": { "id": 133, "name": "ORIGO SOLUTIONS AS" }
+        },
+        "historicalData": null,
+        "unlinkedDocumentData": null
+      },
+      {
+        "documentRequirement": {
+          "libraryVersion": "0.0.0.28",
+          "documentRequirementId": "NOZTI_16",
+          "discipline": "Product Typical",
+          "documentCategory": {
+            "requirementsDocumentCategoryId": "NOZTI_16",
+            "name": "General Arrangement drawing",
+            "description": "The manufacturer's standard general arrangement should be used as far as possible.A drawing showing overall dimensions, critical interface dimensions, part references and weight of assemblies, equipment and components. The drawing shallcontain reference to main specifications and standards For equipment / components the drawing may include cross sectional views.Document may contain the following information:• Main dimensions• Interface connections• Weight• Centre of gravity• Withdrawal/installation and maintenance space.• Installation and mounting details• Lifting arrangement",
+            "extendedStandard": "Z018",
+            "lifeCycleType": "EQLCT200001"
+          },
+          "validationType": "Association",
+          "presence": "Required",
+          "reqType": "M",
+          "delivery": "DFO"
+        },
+        "documentRevision": {
+          "uuid": "0b441476-dd0a-489a-b5cf-10c785fa2eda",
+          "data": {
+            "fileHash": "84d5b4ab4f33aeb93714eaf7b00f462a",
+            "manufacturerId": "1000079",
+            "manufacturerName": "Honeywell Industrial Automation",
+            "eqhubDocumentId": 100010415,
+            "eqhubDocumentVersion": 1,
+            "documentNumber": "34-SW-25-04",
+            "documentTitle": "SmartLine Wireless Temperature and Universal I/O Transmitters User’s manual",
+            "originalFileName": "pmt-hps-34-sw-25-04-wireless-temp.pdf",
+            "documentRevisionTitle": "2",
+            "documentRevisionDate": "2022-10-31T23:00:00.000Z",
+            "isLastVersion": true
+          },
+          "metadata": {
+            "source": "eqhub",
+            "createdAt": "2024-10-18T12:22:58.485Z",
+            "updatedAt": "2024-10-18T12:22:58.485Z",
+            "createdBy": {
+              "id": "cf3d85e3-ef07-4a07-a7a1-1b06dd61d5aa",
+              "companyId": 133
+            },
+            "updatedBy": {
+              "id": "cf3d85e3-ef07-4a07-a7a1-1b06dd61d5aa",
+              "companyId": 133
+            },
+            "createdById": "cf3d85e3-ef07-4a07-a7a1-1b06dd61d5aa",
+            "updatedById": "cf3d85e3-ef07-4a07-a7a1-1b06dd61d5aa",
+            "companyInfo": { "id": 133, "name": "ORIGO SOLUTIONS AS" }
+          },
+          "accessConfiguration": {
+            "accessType": "all",
+            "createdAt": "2024-10-18T12:22:58.485Z",
+            "createdBy": {
+              "id": "cf3d85e3-ef07-4a07-a7a1-1b06dd61d5aa",
+              "companyId": 133
+            },
+            "updatedBy": null,
+            "createdById": "cf3d85e3-ef07-4a07-a7a1-1b06dd61d5aa",
+            "whiteList": null
+          },
+          "status": "published",
+          "requirementsCategories": [
+            {
+              "requirementsDocumentCategoryId": "NOZTI_1",
+              "name": "Installation, operation and maintenance instructions",
+              "description": "The manufacturer's standard IOM should be used as far as possible.This document shall provide sufficient information to install, operate and maintain the equipment.This document shall also provide sufficient information for troubleshooting.",
+              "extendedStandard": "Z018",
+              "lifeCycleType": "EQLCT200001"
+            },
+            {
+              "requirementsDocumentCategoryId": "NOZTI_2",
+              "name": "Spare part list",
+              "description": "Mandatory content of information:- Item reference number- Quantity- Part number or global identifier (together with manufacturer / supplier)- Part name.Optional content of information:- Type designation- Specifying technical data- Descriptive technical data- Mass, dimensions- Reference to document- Remark.",
+              "extendedStandard": "Z018",
+              "lifeCycleType": "EQLCT200001"
+            },
+            {
+              "requirementsDocumentCategoryId": "NOZTI_15",
+              "name": "Data sheet",
+              "description": "This document provides structured data form containing part number/model, design information,operational data and limitations of the equipment. Document shall provide information on technical data and characteristics about material, products or systems and their environment for proper implementation.",
+              "extendedStandard": "Z018",
+              "lifeCycleType": "EQLCT200001"
+            },
+            {
+              "requirementsDocumentCategoryId": "NOZTI_17",
+              "name": "Detail cross sectional drawings with parts list",
+              "description": "A view or drawing that shows what the inside of equipment looks like after a cross-sectional cut has been made.The manufacturer's standard detail cross sectional drawing shall be delivered.Typical information may be:• Items list with reference to supplier’s part number.• Material definition with reference to relevant standards",
+              "extendedStandard": "Z018",
+              "lifeCycleType": "EQLCT200001"
+            },
+            {
+              "requirementsDocumentCategoryId": "NOZTI_27",
+              "name": "Packing, storage, preservation, lifting, transportation and handling procedure",
+              "description": "A compound document that may contain: • Packing lists• Instructions for transport• Handling• Lifting• Storage location and requirements• Preservation of the equipment during short- and long term storage• Maintenance intervals• Inspection intervals• Instructions for unpacking if applicable• Completed applicable forms for mechanical completion• Certificate of conformity, data sheets• Preservation log• Certificate for lifting equipment• Material certificates",
+              "extendedStandard": "Z018",
+              "lifeCycleType": "EQLCT200001"
+            },
+            {
+              "requirementsDocumentCategoryId": "NOZTI_123",
+              "name": "Termination and wiring diagram",
+              "description": "Document to identify terminals for external connection, including marking (if applicable) and signal/power description. Cable entry information may be included in this drawing or part of valve drawing. The supplier standard drawing to be delivered if existing.",
+              "extendedStandard": "Z018",
+              "lifeCycleType": "EQLCT200001"
+            },
+            {
+              "requirementsDocumentCategoryId": "EQHUB_1",
+              "name": "Product description and ordering information",
+              "extendedStandard": "EQHUB",
+              "lifeCycleType": "EQLCT200001"
+            },
+            {
+              "requirementsDocumentCategoryId": "NOZTI_16",
+              "name": "General Arrangement drawing",
+              "description": "The manufacturer's standard general arrangement should be used as far as possible.A drawing showing overall dimensions, critical interface dimensions, part references and weight of assemblies, equipment and components. The drawing shallcontain reference to main specifications and standards For equipment / components the drawing may include cross sectional views.Document may contain the following information:• Main dimensions• Interface connections• Weight• Centre of gravity• Withdrawal/installation and maintenance space.• Installation and mounting details• Lifting arrangement",
+              "extendedStandard": "Z018",
+              "lifeCycleType": "EQLCT200001"
+            }
+          ]
+        },
+        "absenceReasonComment": "",
+        "isRequired": true,
+        "metadata": {
+          "source": "eqhub",
+          "updatedAt": "2024-10-31T06:31:44.954Z",
+          "createdAt": "2024-10-24T07:53:01.688Z",
+          "createdBy": {
+            "id": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+            "companyId": 133
+          },
+          "updatedBy": {
+            "id": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+            "companyId": 133
+          },
+          "createdById": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+          "updatedById": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+          "companyInfo": { "id": 133, "name": "ORIGO SOLUTIONS AS" }
+        },
+        "historicalData": null,
+        "unlinkedDocumentData": null
+      },
+      {
+        "documentRequirement": {
+          "libraryVersion": "0.0.0.28",
+          "documentRequirementId": "NOZTI_2",
+          "discipline": "Product Typical",
+          "documentCategory": {
+            "requirementsDocumentCategoryId": "NOZTI_2",
+            "name": "Spare part list",
+            "description": "Mandatory content of information:- Item reference number- Quantity- Part number or global identifier (together with manufacturer / supplier)- Part name.Optional content of information:- Type designation- Specifying technical data- Descriptive technical data- Mass, dimensions- Reference to document- Remark.",
+            "extendedStandard": "Z018",
+            "lifeCycleType": "EQLCT200001"
+          },
+          "validationType": "Association",
+          "presence": "Preferred",
+          "requirementCondition": "{geicl:notderivable}When supplier consider spare parts to be applicable. If replaced by complete unit this document is not required.",
+          "reqType": "C",
+          "delivery": "DFO"
+        },
+        "documentRevision": {
+          "uuid": "211e7a0b-a337-4db4-8973-1e81c4fd49ea",
+          "data": {
+            "fileHash": "ca43102fc23f92c70d7ef92126335faf",
+            "manufacturerId": "1000079",
+            "manufacturerName": "Honeywell Industrial Automation",
+            "eqhubDocumentId": 100010414,
+            "eqhubDocumentVersion": 1,
+            "documentNumber": "34-SW-03-11",
+            "documentTitle": "Technical Information",
+            "originalFileName": "pmt-hps-smartline-wireless-stiw.pdf",
+            "documentRevisionDate": "2022-03-31T22:00:00.000Z",
+            "isLastVersion": true
+          },
+          "metadata": {
+            "source": "eqhub",
+            "createdAt": "2024-10-18T12:20:31.557Z",
+            "updatedAt": "2024-10-18T12:20:31.557Z",
+            "createdBy": {
+              "id": "cf3d85e3-ef07-4a07-a7a1-1b06dd61d5aa",
+              "companyId": 133
+            },
+            "updatedBy": {
+              "id": "cf3d85e3-ef07-4a07-a7a1-1b06dd61d5aa",
+              "companyId": 133
+            },
+            "createdById": "cf3d85e3-ef07-4a07-a7a1-1b06dd61d5aa",
+            "updatedById": "cf3d85e3-ef07-4a07-a7a1-1b06dd61d5aa",
+            "companyInfo": { "id": 133, "name": "ORIGO SOLUTIONS AS" }
+          },
+          "accessConfiguration": {
+            "accessType": "all",
+            "createdAt": "2024-10-18T12:20:31.557Z",
+            "createdBy": {
+              "id": "cf3d85e3-ef07-4a07-a7a1-1b06dd61d5aa",
+              "companyId": 133
+            },
+            "updatedBy": null,
+            "createdById": "cf3d85e3-ef07-4a07-a7a1-1b06dd61d5aa",
+            "whiteList": null
+          },
+          "status": "published",
+          "requirementsCategories": [
+            {
+              "requirementsDocumentCategoryId": "NOZTI_2",
+              "name": "Spare part list",
+              "description": "Mandatory content of information:- Item reference number- Quantity- Part number or global identifier (together with manufacturer / supplier)- Part name.Optional content of information:- Type designation- Specifying technical data- Descriptive technical data- Mass, dimensions- Reference to document- Remark.",
+              "extendedStandard": "Z018",
+              "lifeCycleType": "EQLCT200001"
+            },
+            {
+              "requirementsDocumentCategoryId": "NOZTI_15",
+              "name": "Data sheet",
+              "description": "This document provides structured data form containing part number/model, design information,operational data and limitations of the equipment. Document shall provide information on technical data and characteristics about material, products or systems and their environment for proper implementation.",
+              "extendedStandard": "Z018",
+              "lifeCycleType": "EQLCT200001"
+            },
+            {
+              "requirementsDocumentCategoryId": "NOZTI_123",
+              "name": "Termination and wiring diagram",
+              "description": "Document to identify terminals for external connection, including marking (if applicable) and signal/power description. Cable entry information may be included in this drawing or part of valve drawing. The supplier standard drawing to be delivered if existing.",
+              "extendedStandard": "Z018",
+              "lifeCycleType": "EQLCT200001"
+            },
+            {
+              "requirementsDocumentCategoryId": "EQHUB_1",
+              "name": "Product description and ordering information",
+              "extendedStandard": "EQHUB",
+              "lifeCycleType": "EQLCT200001"
+            },
+            {
+              "requirementsDocumentCategoryId": "NOZTI_16",
+              "name": "General Arrangement drawing",
+              "description": "The manufacturer's standard general arrangement should be used as far as possible.A drawing showing overall dimensions, critical interface dimensions, part references and weight of assemblies, equipment and components. The drawing shallcontain reference to main specifications and standards For equipment / components the drawing may include cross sectional views.Document may contain the following information:• Main dimensions• Interface connections• Weight• Centre of gravity• Withdrawal/installation and maintenance space.• Installation and mounting details• Lifting arrangement",
+              "extendedStandard": "Z018",
+              "lifeCycleType": "EQLCT200001"
+            }
+          ]
+        },
+        "absenceReasonComment": "",
+        "isRequired": true,
+        "metadata": {
+          "source": "eqhub",
+          "updatedAt": "2024-10-31T06:31:44.956Z",
+          "createdAt": "2024-10-30T08:06:34.929Z",
+          "createdBy": {
+            "id": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+            "companyId": 133
+          },
+          "updatedBy": {
+            "id": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+            "companyId": 133
+          },
+          "createdById": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+          "updatedById": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+          "companyInfo": { "id": 133, "name": "ORIGO SOLUTIONS AS" }
+        },
+        "historicalData": null,
+        "unlinkedDocumentData": null
+      },
+      {
+        "documentRequirement": {
+          "libraryVersion": "0.0.0.28",
+          "documentRequirementId": "NOZTI_15",
+          "discipline": "Product Typical",
+          "documentCategory": {
+            "requirementsDocumentCategoryId": "NOZTI_15",
+            "name": "Data sheet",
+            "description": "This document provides structured data form containing part number/model, design information,operational data and limitations of the equipment. Document shall provide information on technical data and characteristics about material, products or systems and their environment for proper implementation.",
+            "extendedStandard": "Z018",
+            "lifeCycleType": "EQLCT200001"
+          },
+          "validationType": "Association",
+          "presence": "Required",
+          "reqType": "M",
+          "reqDetails": "Standard product data sheet to be delivered. NORSOK datasheets may be used for product individual use.",
+          "delivery": "DFO"
+        },
+        "documentRevision": {
+          "uuid": "211e7a0b-a337-4db4-8973-1e81c4fd49ea",
+          "data": {
+            "fileHash": "ca43102fc23f92c70d7ef92126335faf",
+            "manufacturerId": "1000079",
+            "manufacturerName": "Honeywell Industrial Automation",
+            "eqhubDocumentId": 100010414,
+            "eqhubDocumentVersion": 1,
+            "documentNumber": "34-SW-03-11",
+            "documentTitle": "Technical Information",
+            "originalFileName": "pmt-hps-smartline-wireless-stiw.pdf",
+            "documentRevisionDate": "2022-03-31T22:00:00.000Z",
+            "isLastVersion": true
+          },
+          "metadata": {
+            "source": "eqhub",
+            "createdAt": "2024-10-18T12:20:31.557Z",
+            "updatedAt": "2024-10-18T12:20:31.557Z",
+            "createdBy": {
+              "id": "cf3d85e3-ef07-4a07-a7a1-1b06dd61d5aa",
+              "companyId": 133
+            },
+            "updatedBy": {
+              "id": "cf3d85e3-ef07-4a07-a7a1-1b06dd61d5aa",
+              "companyId": 133
+            },
+            "createdById": "cf3d85e3-ef07-4a07-a7a1-1b06dd61d5aa",
+            "updatedById": "cf3d85e3-ef07-4a07-a7a1-1b06dd61d5aa",
+            "companyInfo": { "id": 133, "name": "ORIGO SOLUTIONS AS" }
+          },
+          "accessConfiguration": {
+            "accessType": "all",
+            "createdAt": "2024-10-18T12:20:31.557Z",
+            "createdBy": {
+              "id": "cf3d85e3-ef07-4a07-a7a1-1b06dd61d5aa",
+              "companyId": 133
+            },
+            "updatedBy": null,
+            "createdById": "cf3d85e3-ef07-4a07-a7a1-1b06dd61d5aa",
+            "whiteList": null
+          },
+          "status": "published",
+          "requirementsCategories": [
+            {
+              "requirementsDocumentCategoryId": "NOZTI_2",
+              "name": "Spare part list",
+              "description": "Mandatory content of information:- Item reference number- Quantity- Part number or global identifier (together with manufacturer / supplier)- Part name.Optional content of information:- Type designation- Specifying technical data- Descriptive technical data- Mass, dimensions- Reference to document- Remark.",
+              "extendedStandard": "Z018",
+              "lifeCycleType": "EQLCT200001"
+            },
+            {
+              "requirementsDocumentCategoryId": "NOZTI_15",
+              "name": "Data sheet",
+              "description": "This document provides structured data form containing part number/model, design information,operational data and limitations of the equipment. Document shall provide information on technical data and characteristics about material, products or systems and their environment for proper implementation.",
+              "extendedStandard": "Z018",
+              "lifeCycleType": "EQLCT200001"
+            },
+            {
+              "requirementsDocumentCategoryId": "NOZTI_123",
+              "name": "Termination and wiring diagram",
+              "description": "Document to identify terminals for external connection, including marking (if applicable) and signal/power description. Cable entry information may be included in this drawing or part of valve drawing. The supplier standard drawing to be delivered if existing.",
+              "extendedStandard": "Z018",
+              "lifeCycleType": "EQLCT200001"
+            },
+            {
+              "requirementsDocumentCategoryId": "EQHUB_1",
+              "name": "Product description and ordering information",
+              "extendedStandard": "EQHUB",
+              "lifeCycleType": "EQLCT200001"
+            },
+            {
+              "requirementsDocumentCategoryId": "NOZTI_16",
+              "name": "General Arrangement drawing",
+              "description": "The manufacturer's standard general arrangement should be used as far as possible.A drawing showing overall dimensions, critical interface dimensions, part references and weight of assemblies, equipment and components. The drawing shallcontain reference to main specifications and standards For equipment / components the drawing may include cross sectional views.Document may contain the following information:• Main dimensions• Interface connections• Weight• Centre of gravity• Withdrawal/installation and maintenance space.• Installation and mounting details• Lifting arrangement",
+              "extendedStandard": "Z018",
+              "lifeCycleType": "EQLCT200001"
+            }
+          ]
+        },
+        "absenceReasonComment": "",
+        "isRequired": true,
+        "metadata": {
+          "source": "eqhub",
+          "updatedAt": "2024-10-31T06:31:44.958Z",
+          "createdAt": "2024-10-30T08:06:34.932Z",
+          "createdBy": {
+            "id": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+            "companyId": 133
+          },
+          "updatedBy": {
+            "id": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+            "companyId": 133
+          },
+          "createdById": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+          "updatedById": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+          "companyInfo": { "id": 133, "name": "ORIGO SOLUTIONS AS" }
+        },
+        "historicalData": null,
+        "unlinkedDocumentData": null
+      },
+      {
+        "documentRequirement": {
+          "libraryVersion": "0.0.0.28",
+          "documentRequirementId": "NOZTI_123",
+          "discipline": "Product Typical",
+          "documentCategory": {
+            "requirementsDocumentCategoryId": "NOZTI_123",
+            "name": "Termination and wiring diagram",
+            "description": "Document to identify terminals for external connection, including marking (if applicable) and signal/power description. Cable entry information may be included in this drawing or part of valve drawing. The supplier standard drawing to be delivered if existing.",
+            "extendedStandard": "Z018",
+            "lifeCycleType": "EQLCT200001"
+          },
+          "validationType": "Association",
+          "presence": "Required",
+          "reqType": "M",
+          "delivery": "DFO"
+        },
+        "documentRevision": {
+          "uuid": "211e7a0b-a337-4db4-8973-1e81c4fd49ea",
+          "data": {
+            "fileHash": "ca43102fc23f92c70d7ef92126335faf",
+            "manufacturerId": "1000079",
+            "manufacturerName": "Honeywell Industrial Automation",
+            "eqhubDocumentId": 100010414,
+            "eqhubDocumentVersion": 1,
+            "documentNumber": "34-SW-03-11",
+            "documentTitle": "Technical Information",
+            "originalFileName": "pmt-hps-smartline-wireless-stiw.pdf",
+            "documentRevisionDate": "2022-03-31T22:00:00.000Z",
+            "isLastVersion": true
+          },
+          "metadata": {
+            "source": "eqhub",
+            "createdAt": "2024-10-18T12:20:31.557Z",
+            "updatedAt": "2024-10-18T12:20:31.557Z",
+            "createdBy": {
+              "id": "cf3d85e3-ef07-4a07-a7a1-1b06dd61d5aa",
+              "companyId": 133
+            },
+            "updatedBy": {
+              "id": "cf3d85e3-ef07-4a07-a7a1-1b06dd61d5aa",
+              "companyId": 133
+            },
+            "createdById": "cf3d85e3-ef07-4a07-a7a1-1b06dd61d5aa",
+            "updatedById": "cf3d85e3-ef07-4a07-a7a1-1b06dd61d5aa",
+            "companyInfo": { "id": 133, "name": "ORIGO SOLUTIONS AS" }
+          },
+          "accessConfiguration": {
+            "accessType": "all",
+            "createdAt": "2024-10-18T12:20:31.557Z",
+            "createdBy": {
+              "id": "cf3d85e3-ef07-4a07-a7a1-1b06dd61d5aa",
+              "companyId": 133
+            },
+            "updatedBy": null,
+            "createdById": "cf3d85e3-ef07-4a07-a7a1-1b06dd61d5aa",
+            "whiteList": null
+          },
+          "status": "published",
+          "requirementsCategories": [
+            {
+              "requirementsDocumentCategoryId": "NOZTI_2",
+              "name": "Spare part list",
+              "description": "Mandatory content of information:- Item reference number- Quantity- Part number or global identifier (together with manufacturer / supplier)- Part name.Optional content of information:- Type designation- Specifying technical data- Descriptive technical data- Mass, dimensions- Reference to document- Remark.",
+              "extendedStandard": "Z018",
+              "lifeCycleType": "EQLCT200001"
+            },
+            {
+              "requirementsDocumentCategoryId": "NOZTI_15",
+              "name": "Data sheet",
+              "description": "This document provides structured data form containing part number/model, design information,operational data and limitations of the equipment. Document shall provide information on technical data and characteristics about material, products or systems and their environment for proper implementation.",
+              "extendedStandard": "Z018",
+              "lifeCycleType": "EQLCT200001"
+            },
+            {
+              "requirementsDocumentCategoryId": "NOZTI_123",
+              "name": "Termination and wiring diagram",
+              "description": "Document to identify terminals for external connection, including marking (if applicable) and signal/power description. Cable entry information may be included in this drawing or part of valve drawing. The supplier standard drawing to be delivered if existing.",
+              "extendedStandard": "Z018",
+              "lifeCycleType": "EQLCT200001"
+            },
+            {
+              "requirementsDocumentCategoryId": "EQHUB_1",
+              "name": "Product description and ordering information",
+              "extendedStandard": "EQHUB",
+              "lifeCycleType": "EQLCT200001"
+            },
+            {
+              "requirementsDocumentCategoryId": "NOZTI_16",
+              "name": "General Arrangement drawing",
+              "description": "The manufacturer's standard general arrangement should be used as far as possible.A drawing showing overall dimensions, critical interface dimensions, part references and weight of assemblies, equipment and components. The drawing shallcontain reference to main specifications and standards For equipment / components the drawing may include cross sectional views.Document may contain the following information:• Main dimensions• Interface connections• Weight• Centre of gravity• Withdrawal/installation and maintenance space.• Installation and mounting details• Lifting arrangement",
+              "extendedStandard": "Z018",
+              "lifeCycleType": "EQLCT200001"
+            }
+          ]
+        },
+        "absenceReasonComment": "",
+        "isRequired": true,
+        "metadata": {
+          "source": "eqhub",
+          "updatedAt": "2024-10-31T06:31:44.960Z",
+          "createdAt": "2024-10-30T08:06:34.934Z",
+          "createdBy": {
+            "id": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+            "companyId": 133
+          },
+          "updatedBy": {
+            "id": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+            "companyId": 133
+          },
+          "createdById": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+          "updatedById": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+          "companyInfo": { "id": 133, "name": "ORIGO SOLUTIONS AS" }
+        },
+        "historicalData": null,
+        "unlinkedDocumentData": null
+      },
+      {
+        "documentRequirement": {
+          "libraryVersion": "0.0.0.28",
+          "documentRequirementId": "NOZTI_16",
+          "discipline": "Product Typical",
+          "documentCategory": {
+            "requirementsDocumentCategoryId": "NOZTI_16",
+            "name": "General Arrangement drawing",
+            "description": "The manufacturer's standard general arrangement should be used as far as possible.A drawing showing overall dimensions, critical interface dimensions, part references and weight of assemblies, equipment and components. The drawing shallcontain reference to main specifications and standards For equipment / components the drawing may include cross sectional views.Document may contain the following information:• Main dimensions• Interface connections• Weight• Centre of gravity• Withdrawal/installation and maintenance space.• Installation and mounting details• Lifting arrangement",
+            "extendedStandard": "Z018",
+            "lifeCycleType": "EQLCT200001"
+          },
+          "validationType": "Association",
+          "presence": "Required",
+          "reqType": "M",
+          "delivery": "DFO"
+        },
+        "documentRevision": {
+          "uuid": "211e7a0b-a337-4db4-8973-1e81c4fd49ea",
+          "data": {
+            "fileHash": "ca43102fc23f92c70d7ef92126335faf",
+            "manufacturerId": "1000079",
+            "manufacturerName": "Honeywell Industrial Automation",
+            "eqhubDocumentId": 100010414,
+            "eqhubDocumentVersion": 1,
+            "documentNumber": "34-SW-03-11",
+            "documentTitle": "Technical Information",
+            "originalFileName": "pmt-hps-smartline-wireless-stiw.pdf",
+            "documentRevisionDate": "2022-03-31T22:00:00.000Z",
+            "isLastVersion": true
+          },
+          "metadata": {
+            "source": "eqhub",
+            "createdAt": "2024-10-18T12:20:31.557Z",
+            "updatedAt": "2024-10-18T12:20:31.557Z",
+            "createdBy": {
+              "id": "cf3d85e3-ef07-4a07-a7a1-1b06dd61d5aa",
+              "companyId": 133
+            },
+            "updatedBy": {
+              "id": "cf3d85e3-ef07-4a07-a7a1-1b06dd61d5aa",
+              "companyId": 133
+            },
+            "createdById": "cf3d85e3-ef07-4a07-a7a1-1b06dd61d5aa",
+            "updatedById": "cf3d85e3-ef07-4a07-a7a1-1b06dd61d5aa",
+            "companyInfo": { "id": 133, "name": "ORIGO SOLUTIONS AS" }
+          },
+          "accessConfiguration": {
+            "accessType": "all",
+            "createdAt": "2024-10-18T12:20:31.557Z",
+            "createdBy": {
+              "id": "cf3d85e3-ef07-4a07-a7a1-1b06dd61d5aa",
+              "companyId": 133
+            },
+            "updatedBy": null,
+            "createdById": "cf3d85e3-ef07-4a07-a7a1-1b06dd61d5aa",
+            "whiteList": null
+          },
+          "status": "published",
+          "requirementsCategories": [
+            {
+              "requirementsDocumentCategoryId": "NOZTI_2",
+              "name": "Spare part list",
+              "description": "Mandatory content of information:- Item reference number- Quantity- Part number or global identifier (together with manufacturer / supplier)- Part name.Optional content of information:- Type designation- Specifying technical data- Descriptive technical data- Mass, dimensions- Reference to document- Remark.",
+              "extendedStandard": "Z018",
+              "lifeCycleType": "EQLCT200001"
+            },
+            {
+              "requirementsDocumentCategoryId": "NOZTI_15",
+              "name": "Data sheet",
+              "description": "This document provides structured data form containing part number/model, design information,operational data and limitations of the equipment. Document shall provide information on technical data and characteristics about material, products or systems and their environment for proper implementation.",
+              "extendedStandard": "Z018",
+              "lifeCycleType": "EQLCT200001"
+            },
+            {
+              "requirementsDocumentCategoryId": "NOZTI_123",
+              "name": "Termination and wiring diagram",
+              "description": "Document to identify terminals for external connection, including marking (if applicable) and signal/power description. Cable entry information may be included in this drawing or part of valve drawing. The supplier standard drawing to be delivered if existing.",
+              "extendedStandard": "Z018",
+              "lifeCycleType": "EQLCT200001"
+            },
+            {
+              "requirementsDocumentCategoryId": "EQHUB_1",
+              "name": "Product description and ordering information",
+              "extendedStandard": "EQHUB",
+              "lifeCycleType": "EQLCT200001"
+            },
+            {
+              "requirementsDocumentCategoryId": "NOZTI_16",
+              "name": "General Arrangement drawing",
+              "description": "The manufacturer's standard general arrangement should be used as far as possible.A drawing showing overall dimensions, critical interface dimensions, part references and weight of assemblies, equipment and components. The drawing shallcontain reference to main specifications and standards For equipment / components the drawing may include cross sectional views.Document may contain the following information:• Main dimensions• Interface connections• Weight• Centre of gravity• Withdrawal/installation and maintenance space.• Installation and mounting details• Lifting arrangement",
+              "extendedStandard": "Z018",
+              "lifeCycleType": "EQLCT200001"
+            }
+          ]
+        },
+        "absenceReasonComment": "",
+        "isRequired": true,
+        "metadata": {
+          "source": "eqhub",
+          "updatedAt": "2024-10-31T06:31:44.962Z",
+          "createdAt": "2024-10-30T08:06:34.936Z",
+          "createdBy": {
+            "id": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+            "companyId": 133
+          },
+          "updatedBy": {
+            "id": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+            "companyId": 133
+          },
+          "createdById": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+          "updatedById": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+          "companyInfo": { "id": 133, "name": "ORIGO SOLUTIONS AS" }
+        },
+        "historicalData": null,
+        "unlinkedDocumentData": null
+      }
+    ],
+    "metadata": {
+      "source": "eqhub",
+      "updatedAt": "2024-10-31T06:34:40.143Z",
+      "createdAt": "2024-10-24T07:07:11.591Z",
+      "createdBy": {
+        "id": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+        "companyId": 133
+      },
+      "updatedBy": {
+        "id": "86df5dee-085a-4c01-8302-f285402bd193",
+        "companyId": 117
+      },
+      "createdById": "29b9837d-e1f6-4fcd-90b1-e8a889a684c5",
+      "updatedById": "86df5dee-085a-4c01-8302-f285402bd193",
+      "companyInfo": { "id": 133, "name": "ORIGO SOLUTIONS AS" }
+    },
+    "statusChangeHistory": []
+  }
+}
