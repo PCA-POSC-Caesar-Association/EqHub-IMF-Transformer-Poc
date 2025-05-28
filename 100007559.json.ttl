@@ -1,0 +1,38 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<https://example.org/equipment/100007559> <http://ns.imfid.org/imf#classifier> <https://data.posccaesar.org/rdl/RDS5770008>;
+                                          <http://ns.imfid.org/imf#hasAspect> <https://ns.imfid.org/imf#productAspect>;
+                                          a <https://draft.posccaesar.org/imf/blocks/91ce0a52-b087-4c7c-8703-b7f9556cc440>;
+                                          <http://www.w3.org/2004/02/skos/core#definition> "A temperature transmitter that is generating a standardized electrical output signal representing the received input signal from the temperature sensor.";
+                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "Transmitter, Temperature, Electric";
+                                          <https://draft.posccaesar.org/imf/attributes/006a6a00-3daf-4259-a145-b7548c75bb65> "316";
+                                          <https://draft.posccaesar.org/imf/attributes/140f1cfc-0d82-4279-a63b-34c57322bdf9> "CE2813";
+                                          <https://draft.posccaesar.org/imf/attributes/187e9d91-3986-484b-a2fc-b112cfe77e8b> "4 - 20 mA";
+                                          <https://draft.posccaesar.org/imf/attributes/1be1a2ac-0912-447f-b6fa-046cc8ea16e3> "IP66/ IP67";
+                                          <https://draft.posccaesar.org/imf/attributes/22144261-0446-4f27-80ab-ae1110ff96ae> "1";
+                                          <https://draft.posccaesar.org/imf/attributes/299d35c6-c903-4e90-ad88-a81c90a65a4c> "II";
+                                          <https://draft.posccaesar.org/imf/attributes/29d593ca-6440-406d-9f24-8c15467d4062> "";
+                                          <https://draft.posccaesar.org/imf/attributes/302c74d6-c150-4d6b-b5e3-803784c53ad4> "4.1";
+                                          <https://draft.posccaesar.org/imf/attributes/3ea0e6f4-eabf-4ce0-b128-b1293351ca74> "Remote";
+                                          <https://draft.posccaesar.org/imf/attributes/55f7bf42-5181-45ad-8f62-5029446fb678> "";
+                                          <https://draft.posccaesar.org/imf/attributes/5fc625d7-bbb6-412c-a298-4c5fffce09d8> "SIRA";
+                                          <https://draft.posccaesar.org/imf/attributes/734ef634-3531-4fb0-9df4-b6b222d064d8> "";
+                                          <https://draft.posccaesar.org/imf/attributes/735cf8a5-92a3-4601-9d75-3b7a2b062f5b> "Ga";
+                                          <https://draft.posccaesar.org/imf/attributes/742e1f91-e0c0-483b-b60d-fd6dc5536502> "ISA 100";
+                                          <https://draft.posccaesar.org/imf/attributes/750020ec-4c64-4b5f-9d76-baabbef22477> "";
+                                          <https://draft.posccaesar.org/imf/attributes/7d9e8ccd-b429-4b04-8612-ad1bef80a073> "G";
+                                          <https://draft.posccaesar.org/imf/attributes/8a55372f-dafe-421d-955e-ca971ac47dfc> "18ATEX2257X";
+                                          <https://draft.posccaesar.org/imf/attributes/8a7118ae-a8b5-4be2-9d7a-53bd3abbb35f> "Ex";
+                                          <https://draft.posccaesar.org/imf/attributes/8ea6a1de-656c-40d6-a87b-5c571baac5b7> "";
+                                          <https://draft.posccaesar.org/imf/attributes/9727ba04-ba44-45f5-b011-971637ac52d9> "";
+                                          <https://draft.posccaesar.org/imf/attributes/a0607a05-7410-4116-b6e8-a2be6d22c89a> "Yes";
+                                          <https://draft.posccaesar.org/imf/attributes/a373cf98-1bd1-4c83-af47-c108b5f0a2e9> "Ex ia";
+                                          <https://draft.posccaesar.org/imf/attributes/a642bf4d-21ed-4a5e-8807-3f0c2140e8c9> "";
+                                          <https://draft.posccaesar.org/imf/attributes/c0ebb4ee-b801-497d-bf5a-e80cf5f07ecf> "T4";
+                                          <https://draft.posccaesar.org/imf/attributes/e18a17df-83fd-4c3b-a76e-7d82d267b882> "";
+                                          <https://draft.posccaesar.org/imf/attributes/ed0785bc-2ce1-4368-97ef-90a5f420dbde> "IIC";
+                                          <https://draft.posccaesar.org/imf/attributes/f073a9f9-5e82-4afb-a0c0-dd5007678f0e> "Yes";
+                                          <https://draft.posccaesar.org/imf/attributes/f4d18964-93b3-4c03-9b4e-729e89527b7c> "";
+                                          <https://draft.posccaesar.org/imf/attributes/fc3b6788-945e-4d34-a063-456c97767824> "".
